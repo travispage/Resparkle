@@ -1,0 +1,4 @@
+[09-Jan-2017 21:35:24 Asia/Singapore] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/resparkl/public_html/wp-includes/functions.php on line 8
+[09-Jan-2017 21:35:24 Asia/Singapore] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/resparkl/public_html/wp-includes/functions.php on line 8
+[09-Jan-2017 21:35:24 Asia/Singapore] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/resparkl/public_html/wp-includes/functions.php on line 8
+[21-Mar-2017 19:43:32 Asia/Singapore] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/resparkl/public_html/wp-includes/registration-functions.php on line 7

@@ -1,0 +1,27 @@
+#bun-rep-nav {
+    width: 90%;
+}
+
+#bun-rep-prev {
+    float: left
+}
+
+#bun-rep-next {
+    float: right
+}
+
+#wc_sub_rep_table {
+    border: solid;
+    width: 90%;
+}
+
+#wc_sub_rep_table td {
+    width: 14.28%;
+    border: inset;
+    vertical-align: top;
+}
+
+#wc_sub_rep_table th {
+    background-color: black;
+    color: white;
+}

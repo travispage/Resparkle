@@ -1,0 +1,2786 @@
+/* @override 
+	http://7ke.co/wp-content/themes/resparkle/custom.css */
+
+@import 'reset';
+@import 'fontface';
+@import 'keyframes';
+@import 'rwd';
+
+$width:1350px;
+$lo: #f7941d;
+$acount:#ed1c24;
+$subs: #12b4f0;
+$shipping:#ed1c24;
+$blue:#12b4f0;
+$red:#ef3239;
+$orange:#f7941d;
+$grey:#7d7d7d;
+$grey-light:#aaa;
+$grey-dark:#555;
+$footer-height: 130px;
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+.admin-bar .top-nav {
+  margin-top: 30px;
+}
+
+@-webkit-keyframes glowbutton {
+  from {
+    background-color: $orange;
+  }
+  50% {
+    background-color: $orange + 30;
+  }
+  to {
+    background-color: $orange;
+  }
+}
+
+@include fontFace("resparkle", "fonts/resparkle");
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "resparkle";
+  font-style: normal;
+  font-weight: normal;
+  speak: none; 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em; 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */ 
+}
+ 
+.icon-angle-circled-right:before { content: '\e800'; } /* '' */
+.icon-angle-circled-left:before { content: '\e801'; } /* '' */
+.icon-down-open-big:before { content: '\e802'; } /* '' */
+.icon-left-open-big:before { content: '\e803'; } /* '' */
+.icon-right-open-big:before { content: '\e804'; } /* '' */
+.icon-up-open-big:before { content: '\e805'; } /* '' */
+.icon-angle-circled-up:before { content: '\e806'; } /* '' */
+.icon-angle-circled-down:before { content: '\e807'; } /* '' */
+.icon-down-open:before { content: '\e808'; } /* '' */
+.icon-left-open:before { content: '\e809'; } /* '' */
+.icon-right-open:before { content: '\e80a'; } /* '' */
+.icon-up-open:before { content: '\e80b'; } /* '' */
+.icon-ok:before { content: '\e80c'; } /* '' */
+.icon-about:before { content: '\e80d'; } /* '' */
+.icon-contact:before { content: '\e80e'; } /* '' */
+.icon-home:before { content: '\e80f'; } /* '' */
+.icon-movement:before { content: '\e810'; } /* '' */
+.icon-service:before { content: '\e811'; } /* '' */
+.icon-shop:before { content: '\e812'; } /* '' */
+.icon-circle-right:before { content: '\e813'; } /* '' */
+.icon-cancel:before { content: '\e814'; } /* '' */
+.icon-menu:before { content: '\e816'; } /* '' */
+.icon-trash:before { content: '\e817'; } /* '' */
+
+.ps-container {
+	padding-right: 20px !important;
+}
+.ps-container .ps-scrollbar-y{
+	position:absolute;
+	right:0;
+	top: 0;
+	width:15px;
+	background-color:$blue;
+	border: 1px solid $blue;
+}
+
+.slick-dots {
+	bottom: 10px;
+
+	button:before {
+		color: #fff !important;
+		font-size: 12px !important;
+	}
+}
+
+html {
+	height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "museo-sans", sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  
+  @include respond-to(iphone) {
+	  padding-top: 80px;
+	}
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.woocommerce-message {
+	margin-bottom: 50px;
+}
+
+.woocommerce-info {
+	border-top: 5px solid $orange;
+	margin: 20px 0;
+}
+
+.layout-full #main {
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+}
+
+
+.main {
+	min-height: 100%;
+	margin: 0 auto;
+	margin-bottom: - $footer-height;
+	position: relative;
+	padding-top: 150px;
+	clear: both;	
+	overflow: hidden;
+	
+	@include respond-to(iphone) {
+		padding-top: 0;
+		margin: 0;
+	}
+}
+
+.home .main {
+	padding-top: 80px;
+	
+	@include respond-to(iphone) {
+			padding: 0;
+	}
+}
+
+.main:after {
+	content:  "";
+	display: block;
+}
+ 
+#content {
+	width: 1200px !important;
+	max-width: 100% !important;
+	
+	@include respond-to(iphone) {
+		width: 100% !important;
+	}	
+}
+ 
+.top-nav {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	background-color: #ed1c24;
+	
+	.logo {
+		float: left;
+		width: 200px;
+		text-align: center;
+		margin: 25px 0 0 50px;
+		
+		@include respond-to(iphone) {
+			margin-left: 60px;
+		}
+	
+		img {
+			width: 100%;
+		}
+	}
+	
+	.wrapper {
+	  width: 90%;
+	  margin: 0 auto;   
+	  
+	  @include respond-to(iphone) {
+	  	width: 100%;
+	  	position: relative;
+	  }   
+	  
+	  .ham {
+	  	color: #fff;
+	  	position: absolute;
+	  	top: 20px;
+			left: 5px;
+			font-size: 2em;
+			display: none;
+			
+			@include respond-to(iphone) {
+				display: block;
+			}
+			
+			&.active {
+				span:before {
+					content: '\e814';
+				}
+			}
+	  }
+			
+	  .links  {
+	    float: right;
+	    margin-top: 35px;
+	    font-size: 1em;
+	    font-weight: bolder;
+	    
+	    @include respond-to(iphone) {
+	    	display: none;
+	    }
+	    
+	    &.show {
+	    	display: block;
+	    }
+	
+			li {
+				margin: 0 15px;
+        float: left;            
+        
+        a {
+          color: #fff;          
+        }
+        
+        &.active {
+          border-bottom: 2px solid #fff;
+        }	
+     }	      
+	  }
+	}
+}
+
+.footer-wrap {
+	background: #f9f9f6; 
+	float: left;
+	width: 100%;		
+	margin-top: 100px;
+	
+	@include respond-to(iphone) {
+		padding: 0;
+		margin: 0;
+	}
+}
+.footer-wrap,
+.main:after {
+	height: $footer-height;
+}
+#footer {  	
+	
+	clear: both;
+	
+	.wrapper {
+		width: 90%;
+		position: relative;
+		margin: 0 auto;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+		}
+	}
+	.bottom {
+		float: left;
+		width: 100%;
+		padding-bottom: 50px;
+		
+		@include respond-to(iphone) {
+			text-align: center;
+			margin: 10px 0;
+		}
+	}
+	span.right {
+		float: right;
+		text-align: right;
+		border: 0;
+		margin: 0;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+			text-align: center;
+			padding: 0;
+			margin: 10px 0;
+		}
+	}
+	.back {
+    position: absolute;
+    right: -80px;
+    top: -37px;
+    width: 70px;
+    height: 70px;
+    background-color: #ef3239;
+    
+    padding: 20px 0px;
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+    
+    @include respond-to(iphone) {
+    	right: 0;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+  .social {
+  	img {
+  		float: left;
+  		margin: 0 30px 20px 0;
+  	}
+  }
+}
+
+  .intro {
+  	.wrapper {
+  		font-size: 1.4em;
+  		line-height: 1.4em;
+  		padding: 50px 0;
+  		color: #fff;
+  		width: 1100px;	
+  		margin: 0 auto;
+  		text-align: center;
+  		
+  		@include respond-to(iphone) {
+  			width: 100%;
+  			padding: 50px 20px;
+  		}
+  	}	
+  }
+  
+  #mobile-nav {
+
+  	background: #f5f5f5;
+  	width: 100%;
+  	float: left;
+  	display: none;
+  	margin-bottom: 25px;
+  	
+  	&.show {
+  		display: block;
+  	}
+  	
+  	ul {
+  		overflow: hidden;
+  	}
+  	li a {
+  		width: 100%;
+  		float: left;
+  		line-height: 1em;
+  		padding: 15px 10px;
+  		border-bottom: 1px solid #ccc;
+
+  		span {
+  			float: left;
+  			font-size: 2em;  			
+  			line-height: 1em;
+  		}
+  		strong {
+  			float: left;
+  			margin: 10px 0 0 10px;
+  		}
+  	}
+  }
+  
+  li.red a {
+  	color: #fff;
+  	background: $red;
+  	padding: 20px !important;
+  	
+  	.cart_count {
+			font-size: 1em !important;
+			float: none !important;
+  	}
+  }
+  
+  #main-nav {
+  	
+  	@include respond-to(iphone) {
+  		display: none;
+  	}
+  	
+  	ul {
+  		width: 100%;
+  		margin: 0 auto;
+  	}    	
+  	
+  	background: #fff;  		
+  	
+  	li {
+  		float: left;
+  		text-align: center;
+  		width: 16.66%;	
+  		position: relative;	
+  		text-transform: uppercase;		
+  		  		
+  		span {
+  			font-size: 5em;
+  			color: #6c6c6c;
+  		}
+  		
+  		strong {
+  			display: block;
+  			margin-top: 10px;
+  		}
+  		  		
+  		a {
+  			padding: 10px 0;
+  			display: block;
+  		}  		
+  		
+  		.sub-menu {
+  			display: none;
+  			width: 100%;
+  			position: absolute;
+  			top: 165px;
+  			left: 0;
+  			z-index: 999;
+  			background: $red;
+  			padding: 20px 0;
+  		}
+			@media only screen and (min-width: 768px) {
+	  		&:hover {
+	  			
+	  			background: $red;
+	  			
+	  			span {
+	  				color: #fff;
+	  			}
+	  			
+	  			a {
+	  				color: #fff;
+	  			}
+	  			
+	  			.sub-menu {  				
+	  				display: block;  				
+	  				
+	  				ul {
+	  					width: 100%;
+	  				}
+	  				
+	  				li {
+	  					width: 100%;
+	  					float: left;
+	  					text-align: left;
+	  					list-style: disc;
+	  					list-style-position: inside;
+	  					color: #fff;
+	  					padding: 5px 20px;
+	  				}
+	  				
+	  				a {
+							display: inline;
+	  					color: #fff;
+	  					padding: 0;
+	  				}
+	  			}		
+	  		}	
+  		} 	
+  	}
+  	
+  	&.stuck {
+  		width: 100%;
+  		position: fixed;
+  		top: 80px;
+  		left: 0;
+  		z-index: 9999;  		
+  		
+  		> ul > li {
+  			height: 60px;
+  		}
+  		
+  		li a {
+  			padding: 10px 0;
+  		}
+  		
+  		span {
+  			display: none;
+  		}
+  		
+  		.sub-menu {
+  			top: 50px !important;
+  		}	
+  		
+  	}  	 
+  	
+  } 
+  
+  .admin-bar #main-nav {
+  	top: 110px;
+  }
+  
+  .home {
+  	
+  	.billboard {
+  		width: 100%;
+  		
+  		img {
+  			width: 100%;
+  			height: auto !important;
+  		}
+  	}  	 	  	
+  	
+  	.promo {		
+  		margin-top: 20px;
+  		text-align: center;
+  		
+  		@include respond-to(iphone) {
+  			img {
+  				height: auto;
+  			}
+  		}
+  	}
+  	
+  	.healthy {		
+  		position: relative;
+  		margin-top: 50px;
+  		background: url(assets/img/wood.jpg);
+  		
+  		@include respond-to(iphone) {
+  			margin-bottom: 20px;
+  		}
+  		
+  		.intro {
+  			background: $blue;
+  		}
+  		.tabs, .tab-content {
+  			width: 90%;
+  			margin: 0 auto;
+  			
+  			@include respond-to(iphone) {
+  				width: 100% !important;
+  			}
+  		}
+  		
+  		.tabs {
+  		
+  			margin-top: 80px;
+  			
+  			@include respond-to(iphone) {
+  				margin-top: 20px;
+  			}
+  			  			  			
+  			.subscribe {
+  			    float: right;
+  			    width:550px;
+  			    height: 100%;
+  			    color: #fff;
+  			    background: $blue;
+  			    padding-left: 10px;
+  			    font-size: 1em;
+		    		margin-bottom: 40px;
+		    		
+		    		@include respond-to(iphone) {
+		    			width: 100%;
+		    			float: none;
+		    			margin: 0 auto;
+		    			overflow: hidden;
+		    			padding: 10px;
+		    		}
+  			
+  			    strong {
+  			      float: left;
+  			      height: 36px;
+  			      line-height: 36px;
+  			      
+  			      @include respond-to(iphone) {
+  			      	width: 100%;
+  			      }
+  			    }
+  			
+  			    .fi {
+  			      float: right;
+  			      width: 330px;
+  			      margin: 3px 0 0 0;
+  			      
+  			      @include respond-to(iphone) {
+  			      	width: 100%;
+  			      }
+  			
+  			      input {
+  			        width: 248px;
+  			        float: right;
+  			        margin-right: 2px;
+  			        font-size: 1em;
+  			        font-weight: bold;
+  			        padding: 0 20px;
+  			        height: 30px;
+  			        border: 0;
+  			        border-radius: 0;
+  			        
+  			        @include respond-to(iphone) {
+  			        	width: 78%;
+  			        	margin: 0;
+  			        }
+  			      }        
+  			    }
+  			    
+  			    button {
+  			    	float: right;
+  			    	font-size: 1.1em;
+  			    	background: #fff;
+  			    	border: 0;
+  			    	margin-right: 2px;
+  			    	width: 35px;
+  			  		height: 30px;
+  			    	cursor: pointer;
+  			    	
+  			    	@include respond-to(iphone) {
+  			    		width: 20%;
+  			    		margin: 0;
+  			    	}
+  			    }
+  			  }
+  		}
+  	}
+  	
+  	.tab-content {
+  	
+  		li {
+  			float: left;
+  			width: 24%;
+  			margin-right: 1%;
+  			text-align: center;
+  			color: #898989;
+  			padding-bottom: 50px;
+  			
+  			@include respond-to(iphone) {
+  				width: 45%;
+  				margin: 0 2%;
+  				padding-bottom: 30px;
+  			}
+
+  			&:last-child {
+  				margin-right: 0;
+  			}
+  			.cover {
+  				float: left;
+  				overflow: hidden;
+  				border: 4px solid $blue;
+  				margin-bottom: 10px;
+  				
+  				@include respond-to(iphone) {
+  					height: auto;
+  				}
+  			}
+  			img {
+  				width: 100%;
+  			}			
+  			
+  			.title {
+  				width: 100%;
+  				font-size: 1.6em;
+  				line-height: 1.2em;
+  				height: 2.2em;
+  				overflow: hidden;
+  				display: block;				
+  				color: $blue;
+  				margin: 10px 0;
+  				text-transform: uppercase;
+  				font-weight: normal;  				
+  			}
+  			
+  			em {
+  				display: block;				
+  				font-style: normal;
+  				font-size: .8em;
+  				font-weight: bold;
+  				text-transform: uppercase;
+  			}
+  			span {
+  				font-size: .8em;
+  				font-weight: bold;
+  				text-transform: uppercase;
+  			}
+  			.sep {
+  				margin: 0 10px;
+  			}
+  		}
+  		li:hover {
+  			img {
+  				border-color: $orange;
+  			}
+  			.title {
+  				color: $orange;
+  			}
+  		}
+  	}
+  	
+  	.bestsellers {		
+  		border-top: 1px solid $orange;
+  		padding-top: 80px;
+  		position: relative;
+  		
+  		@include respond-to(iphone) {
+				padding-top: 20px;
+  		}
+  		
+  		.sec-title {
+  			border-color: $orange;
+  			color: $orange;
+  		}
+  		
+  		.wrapper {
+  			width: 90%;	
+  			margin: 0 auto;
+  			
+  			@include respond-to(iphone) {
+  				width: 100%;
+  			}
+  		}
+  		
+  		ul {
+  			float: left;
+  			width: 85%;
+  		}
+  		
+  		.view-all {		
+  			
+  			float: right;
+  			text-align: center;		
+  			display: block;
+  			color: $orange;
+  			margin-top: 80px;
+  			
+  			@include respond-to(iphone) {
+					float: none;
+					clear: both;
+					margin: 0;
+  			}
+  			
+  			span:before {
+  				font-size: 5em;
+  				@include respond-to(iphone) {
+  					font-size: 3em;
+  					-webkit-transform: rotate(90deg);
+  				}
+  			}
+  			strong {
+  				width: 100px;
+  				display: block;
+  				
+  				@include respond-to(iphone) {
+  					width: auto;
+  					display: inline;
+  					font-size: 1.4em;
+  					font-weight: bold;
+  				}
+  			}
+  			
+  			
+  		}
+  		
+  	}
+  	
+  	.testimonials {
+  	
+  		position: relative;
+  		margin-top: 100px;
+  		
+  		.intro {
+  			background: $red;  			
+  			
+  			.wrapper {
+				padding: 50px;
+  			}
+  		}
+  		
+  		.wrapper {
+  			width: 90%;
+  			margin: 0 auto;
+  			
+  			@include respond-to(iphone) {
+  				width: 100%;
+  			}
+  		}
+  		.sec-title {
+  			border-color: $red;
+  			color: $red;
+  		}
+  		
+  		.slider {
+  			width: 90%;
+  			
+  			@include respond-to(iphone) {
+  				width: 100%;
+  			}
+  		}
+  		
+  		.arr-left,
+  		.arr-right {
+  			font-size: 3em;
+  			color: $red;
+  			background: 0;
+  			border: 0;
+  			position: absolute;
+  			top: 200px;
+  		}
+  		.arr-left {
+  			left: -50px;
+  		}
+  		.arr-right {
+  			right: -50px;
+  		}
+  		
+  		.test {
+  			width: 480px;
+  			float: left;
+  			font-weight: bold;
+  			font-size: 1.4em;
+  			color: #888;
+  			margin: 50px;
+  			text-align: justify;
+  			float: left;
+  			
+  			@include respond-to(iphone) {
+  				width: 100%;
+  			}
+  			
+  			p {
+  				margin-bottom: 2em;
+  				overflow: hidden;
+  				
+  				@include respond-to(iphone) {
+  					height: 5em;
+  					margin: 0;
+  				}
+  			}
+  		}
+  		
+  		.star-rating {
+  			
+  			font-size: 1.8em;
+  			width: 7em;
+				margin: 0 auto 10px;
+				letter-spacing: .5em;
+  				
+  			span:before {
+				color: #aaa;
+				letter-spacing: .5em;
+  			}
+  			  			  			
+  		}
+  		
+  		.author,
+  		.from {	
+  			display: block;
+  			line-height: 1.2em;
+  			text-align: center;
+  			font-weight: normal;
+  		}
+  		
+  	}
+  	
+  	.subscribe {
+  		width: 300px;
+  		float: right;
+  	}
+  	
+  	.social-feeds {
+  		
+  		position: relative;
+  		border-top: 1px solid $blue;
+  		  		
+  		.sec-title {
+  			border-color: $blue;
+  			color: $blue;
+  			background: #fff;	
+  			z-index: 9999;
+  		}
+  		
+  		.instagram-wall {
+  			width: 75%;
+  			height: 500px;
+  			float: left;
+  			background: #fff;  			
+  			
+  			@include respond-to(iphone) {
+  				height: auto;
+  			}
+  		}
+  		
+  		.feature-wall {
+  			width: 25%;
+  			float: left;
+  			
+  			img {
+  				width: 100% !important;
+  				height: auto !important;
+  			}
+  		}
+  		
+  	}
+  	
+  }
+  
+  .sec-title {
+  	width: 30%;
+  	margin: 0 auto;
+  	border: 3px solid $blue;
+  	color: $blue;
+  	text-align: center;
+  	padding: 10px;
+  	font-size: 1.6em;
+  	font-style: italic;
+  	position: absolute;
+  	top: -25px;
+  	left: 50%;
+  	margin-left: -15%;
+  	background: #fff;
+  	text-transform: uppercase;
+  	
+  	@include respond-to(iphone) {
+  		width: 90%;
+  		margin-left: -45%;
+  	}
+  }
+
+  .fullw {
+  	width: 100%;
+  }
+  
+  table.whitebg {
+		td {
+			background: #fff !important;
+		}
+  }
+  
+  /* SHOP PAGE / PRODUCT ARCHIVE */
+  
+  .masthead {
+  	max-height: 375px;
+  	overflow: hidden;
+  	
+  	img {
+  		width: 100%;
+  		height: auto !important;
+  	}  	
+  }
+  
+  .cat-nav {
+  	
+  	background: $orange;
+  	padding: 20px 0 0 0;
+    margin-bottom: 50px;
+  	position: relative;
+  	  	
+  	.sec-title {
+  		color: $orange;
+  		border-color: $orange;
+  	}
+  	
+  	&.no-links {
+		padding: 1px 0 0 0;
+  	}
+  	
+  	&.blue {
+  		background: $blue;
+  		
+  		.sec-title {
+  			border-color: $blue;
+  			color: $blue;
+  		}  		  		
+  		.active a,
+  		.toggleBtn {
+  			color: $blue;
+  		}
+  	}
+  	
+  	&.red {
+  		background: $red;
+  		
+  		.sec-title {
+  			border-color: $red;
+  			color: $red;
+  		}
+  		.active a {
+  			color: $red;
+  		}
+  	}
+  	
+  	ul {
+  		width: 1150px;
+  		margin: 0 auto;
+  		overflow: hidden;
+  		
+  		@include respond-to(iphone) {
+  			width: 100%;
+  			height: 4.5em;
+  			overflow: hidden;  			
+  			position: relative;
+  			
+  			&.show {
+  				height: auto;
+  			}
+			}
+  	}
+  	
+  	li {
+  		float: left;
+  		margin-top: 20px;
+  		margin-right: 25px;
+  		
+  		@include respond-to(iphone) {
+  			width: 100%;
+  			text-align: center;
+  			margin: 0;
+  		}
+  		
+  		@include respond-to(ipad) {
+  			&:nth-child(2) {
+					display: none;
+  			}
+  		}
+  		
+  		&:last-child {
+  			margin-right: 0;
+  		}
+  		
+  		&.active {
+  			a {
+  				background: #fff;
+  				color: $orange;
+  				
+  				@include respond-to(iphone) {
+  					color: #fff;
+  					background: 0;
+  				}
+  			}
+  		}
+  	}
+  	
+  	.toggleBtn {
+  		display: none;
+  		
+  		@include respond-to(iphone) {
+  			display: block;
+  			width: auto;
+  			position: absolute;
+  			top: 0;
+  			right: 0;
+  			padding: 20px;
+  			color: #fff;
+  		}
+  	}
+  	
+  	.show .toggleBtn span:before {
+  		content: '\e80b';
+  	}
+  	
+  	a {
+  		text-transform: uppercase;
+  		padding: 20px 15px;
+  		display: block;
+  		color: #fff;
+  		font-size: 1.1em;
+  	}
+  	
+  	@include respond-to(iphone) {
+  		a {
+  			color: #fff !important;
+  		}
+  		.toggleBtn span {
+  			color: #fff;
+  		}
+  	}
+  	
+  }
+  
+  
+  /* PAGINATION */
+  .pagination {
+  	width: 300px;
+  	margin: 20px auto;
+  	
+  	.nav-previous {
+  		float: right;
+  		margin-bottom: 50px;
+  	}
+  	.nav-next {
+  		float: left;
+  		margin-bottom: 50px;
+  	}
+  	
+  	a {
+  		font-size: 1em;
+  		color: $red;
+  	}
+  }
+  
+  .customer-testimonials {
+  	.pagination {
+  		font-size: 3em;
+  	}
+  }
+  /* PRODUCT LIST PRODUCT STYLE */
+  .products {
+    li {
+        width: 24%;
+        float: left;
+        margin-right: 1%;
+        text-align: center;
+        background: #fff !important;
+        position: relative;
+        
+        @include respond-to(iphone) {
+        	width: 100%;	
+        	padding: 10px;	
+        	margin: 0 0 20px 0;
+        }
+        
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .prod_name {
+        color: #000;
+        clear: both;
+        font-size: 1.2em;
+        line-height: 1.4em;
+        height: 2.4em;
+        overflow: hidden;
+        font-weight: normal;      
+        display: block;
+        margin-bottom: 10px;
+        
+        @include respond-to(iphone) {
+					clear: none;
+        }
+      }
+      .prod_img {
+				width: 100%;
+        float: left;
+        margin-bottom: 10px;
+        
+        @include respond-to(iphone) {
+        	width: 40%;
+        	height: 40%;
+        	margin-right: 20px;
+        	border: 1px solid #ccc;
+        	
+        	img {
+        		width: 100% !important;
+        	}
+        }
+      }
+      .prod_body {
+      	@include respond-to(iphone) {
+      		width: 50%;
+      		float: left;
+      		
+      		.added_to_cart {
+						bottom: 15px !important;
+      		}
+      	 }
+      }
+      .amount {
+        font-style: italic;
+        font-weight: bold;
+        color: #777;
+      }
+      .rating-wrap {
+        float: none !important;        
+      }
+      .star-rating {
+        
+        font-size: 1.2em;
+        width: 7em !important;
+        margin: 20px auto 5px;
+        letter-spacing: .5em;
+        
+        &:before {        
+          color: $orange;
+          letter-spacing: .5em;
+        }
+        
+        span:before {
+        color: $orange;
+        }       
+      }
+      .review-count {
+        text-align: center;
+        display: block;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        color: #555;
+        font-weight: bold !important;
+      }
+
+      .add_to_cart_button {
+        display: block;
+        color: #fff;
+        background: $blue;
+        width: 50% !important;
+        margin: 10px auto !important;
+        padding: 5px 0;
+        font-weight: bold;
+        
+        @include respond-to(iphone) {
+        	width: 80% !important;
+        	padding: 10px;
+        }
+      }
+  }
+  
+  .added_to_cart {
+  	background: $orange;
+		position: absolute !important;
+		bottom: 10px !important;
+		right: 20px !important;
+		
+		@include respond-to(iphone) {
+			bottom: 23px !important;
+			right: 0 !important;
+		}
+  }
+  
+  /* END PRODUCT/ARCHIVE LIST */
+  
+  .breadcrumb .sep {
+	margin-right: 10px;
+  }
+  .breadcrumbs-wrap {
+  	border: 0;
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	margin: 0 0 20px 0;
+  	padding: 0;
+  }
+  
+  /* PRODUCT DETAIL */
+  
+  .single-product {  	
+	.main {
+		border-top: 1px solid $orange;
+		padding: 30px;
+		margin-top: 170px;
+		overflow: visible;
+		
+		@include respond-to(iphone) {
+			margin-top: 50px;
+			padding: 30px 10px;
+		}
+		
+		.sec-title {
+			color: $orange;
+			border-color: $orange;
+		}  	
+	}
+	#main {
+		width: 1200px;
+		margin: 0 auto;
+		
+		@include respond-to(iphone) {
+			margin-top: 20px;
+		}
+		
+		.product {
+			padding: 0;
+		}		
+		.images {
+			width: 60%;
+			float: left;
+			margin: 0 0 50px 0;
+			
+			@include respond-to(iphone) {
+				width: 100%;
+			}
+		}
+		.woocommerce-main-image {
+			width: 75%;
+			float: right;
+			text-align: center;
+			margin-left: 5%;
+			
+			img {
+				width: 90%;
+			}
+			
+		}
+		.thumbnails {
+			width: 20%;
+			float: left;
+			margin: 0;
+			
+			a {
+				width: 100%;
+				margin: 0 0 30px 0;
+				border: 1px solid #ccc;
+				
+				img {
+					margin: 0;
+				}
+				
+				&.active {
+					border: 1px solid $red;
+				}
+			}
+		}
+		.summary {
+			width: 38%;
+			float: right;
+			margin: 0 0 50px 2%;
+			
+			@include respond-to(iphone) {
+				width: 100%;
+				margin: 0 0 50px;
+			}
+		}
+		.product_title {
+			width: 100%;
+			font-size: 2em;
+			line-height: 1.4em;
+			color: #555;
+			
+			@include respond-to(iphone) {
+				font-size: 1.4em;
+				color: #333;
+			}
+		}
+		.upsells {
+			clear: both;
+			
+			h2 {
+				font-size: 1.2em;
+				margin-bottom: 20px;
+			}
+		}
+		.woocommerce-product-rating {
+			background: 0;
+			clear: both;
+			padding: 0;
+			
+			.star-rating {
+				width: 7em;
+				float: none;
+				font-size: 2em;
+				letter-spacing: .5em;
+			}
+		}
+		.woocommerce-review-link {
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+		.the-price {
+			clear: both;
+			float: left;
+			margin: 30px 0 0 0;
+		}
+		.price {
+			width: 100%;
+			text-align: left;
+			font-size: 1.4em;
+			font-weight: bold;
+			
+			@include respond-to(iphone) {
+				margin-top: 10px;
+			}
+			
+			span {
+				color: #898989;
+			}
+		}
+		form.cart {
+			clear: none;
+			width: 200px;
+			float: right;
+			margin: 30px 0 0 0;
+			background: $orange;
+			padding: 5px;
+			border-radius: 0;
+			
+			@include respond-to(iphone) {
+				width: 60%;
+			}
+			
+			.quantity {
+				margin: 0;
+			}
+			input {
+				border-radius: 0;
+				text-align: center;
+				width: 70px;
+				height: 38px;
+				
+				@include respond-to(iphone) {
+					width: 50px;
+				}
+			}
+			
+			.single_add_to_cart_button {
+				float: right;
+				background: 0;
+				text-transform: uppercase;
+				font-weight: bold;
+				padding: 10px;
+			}
+		}
+		.woocommerce-tabs {
+			.panel {
+				padding: 20px 0;
+			}
+		}	
+		.tabs {
+			display: none;
+		}	
+		#tab-description {
+			padding: 0;
+			margin: 0;
+			height: 300px;
+			position: relative;
+			color: #666666;
+			overflow: hidden;
+			border-radius: 0;
+			font-size: 1.2em;
+			
+			p {
+				margin: 1em 0;
+			}
+			
+			.desc-wrapper {
+				h2 {
+					color: #555;
+					margin: 1em 0;
+					text-transform: uppercase;
+				}
+				p {
+					margin: 0 0 1em 0;
+				}
+			}
+		}	
+		
+		#reviews {
+			border-top: 1px solid $blue;
+			position: relative;
+			
+			.sec-title {
+				color: $blue;
+				border-color: $blue;
+			}
+			
+			#comments {
+				height: 400px;
+				position: relative;
+				overflow: hidden;
+			}
+			
+			#reply-title {
+				color: $blue;
+				font-size: 1.6em;
+				text-transform: uppercase;
+			}
+			
+			#comments.no-reviews {
+				height: auto !important;
+			}
+			
+			p.woocommerce-noreviews {
+				padding: 20px;	
+				border: 1px solid #ddd;
+				background: #fff;
+				text-align: center;
+				font-size: 1.4em;
+				font-weight: bold;
+				color: #ccc;
+				margin-bottom: 50px;
+			}
+			
+			.comment-text {
+			
+				width: 100%;
+				
+				.title {
+					font-size: 1.4em;
+					color: #484848;
+				}	
+			}	
+			
+			.star-rating {
+				width: 7em;
+				float: none;
+				letter-spacing: .5em;
+				
+				span:before {
+					color: $red;
+				}						
+			}
+			
+			.meta {
+				font-size: 1.2em;
+				margin-bottom: 20px;
+			}
+			
+			.description p {
+				font-size: 1.2em;
+				margin-bottom: 1em;
+			}
+		}
+	}	
+	
+	#commentform {
+		
+		p {
+			margin: 0 0 15px 0;
+			float: left;
+		}
+		p > label {
+			width: 30%;
+			float: left;
+			padding: 5px 0;
+		}
+		input[type="text"]
+		{
+			width: 70%;
+			float: left;
+		}
+		p.comment-form-title,
+		p.comment-form-country,
+		p.comment-form-rating,
+		p.comment-form-comment {		
+			label {
+				width: 90px;
+				margin-top: 8px;
+				font-weight: bold;
+			}
+			
+			width: 100%;
+			clear: both;
+			
+			select {
+				width: 200px !important;
+			}
+		}
+		.stars {
+			width: 70%;
+			a {
+				width: 100px;
+				text-indent: -999em;				
+				font-size: 2em;
+				
+				@include respond-to(iphone) {
+					width: 100%;
+					margin-bottom: 10px;
+				}	
+			}
+			a:after {
+				text-align: right !important;
+			}
+		}
+		p.comment-form-comment {
+			label {
+				margin-top: 5px;
+			}
+			textarea {
+				float: left !important;
+				width: 800px !important;
+				padding: 10px 15px;
+				
+				@include respond-to(iphone) {
+					width: 100% !important;
+				}	
+			}
+		} 
+		.form-submit {
+			width: 79%;
+			text-align: right;
+			
+			@include respond-to(iphone) {
+				width: 100%;
+			}	
+			
+			#submit {	
+				font-size: 1.4em;
+				float: right;	
+				background: $blue;
+				width: 200px;
+				padding: 20px 0;
+				margin-bottom: 50px;
+				
+				@include respond-to(iphone) {
+					width: 100%;
+				}	
+				
+			}	
+		}		
+	}
+	
+	.related.products {
+		position: relative;
+		border-top: 1px solid $red;
+		padding-top: 80px;
+		margin-top: 50px;
+		
+		.sec-title {
+			color: $red;
+			border-color: $red;
+		}	
+	}	
+}   
+ /* END PRODUCT DETAIL */
+ 
+ /* CHECKOUT */
+ 
+ .woocommerce-cart,
+ .woocommerce-checkout {
+ 	
+ 	.page .entry {
+ 		font-size: 1em;
+ 	}
+ 	.sec-header {
+	 	margin: 22px 0 15px 0;
+ 		position: relative;
+ 		width: 100%;
+ 		border-bottom: 1px solid $red;
+ 		
+ 		@include respond-to(iphone) {
+				margin: 50px 0;
+ 		}
+ 	}
+ 	.sec-title {
+		border-color: $red;
+		color: $red;
+ 	}
+ 	
+ }
+ 
+ .cart-empty {
+ 	text-align: center;
+	margin-top: 50px;
+	padding: 20px;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #aaa;
+	border: 1px solid #eee;
+	background: #f5f5f5;
+ }
+ 
+ .woocommerce {
+ 	width: 100%;
+ 	
+ 	@include respond-to(iphone) {
+ 		margin: 0;
+ 	}
+ }
+ .woocommerce-info {
+ 	font-size: 1.2em;
+ }
+ .checkout-login.stuck {
+ 	position: fixed;
+ 	width: 100%;
+ 	top: 120px;
+ 	left: 50%;
+ 	margin-left: -50%;
+ 	z-index: 999;
+ 	
+ 	@include respond-to(iphone) {
+ 		top: 60px;	
+ 	}
+	
+ 	form {	 
+		background: #fff;
+ 		width: 600px;
+	 	padding: 20px 30px;
+		border: 1px solid #aaa;
+		margin-left: 50px;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+ 	}
+ }
+ .shop_table.cart {
+ 	tr {
+ 		border-bottom: 1px solid $red;
+ 	}
+ 	th {
+ 		border-bottom: 5px solid $red;
+ 		padding: 15px;
+ 	}
+ 	td {
+ 		background: #fff;
+ 		color: $grey-dark;
+ 		font-weight: bold;
+ 		padding: 15px;
+ 		font-size: 1.1em;
+ 		vertical-align: middle;
+ 		
+ 		a {
+ 			color: $grey-dark;
+ 		}
+ 		
+ 		.qty {
+ 			border: 1px solid #ccc;
+ 			border-radius: 10px;
+ 			text-align: center;
+ 			margin-top: -5px;
+ 		}
+ 	}
+ 	.product-thumbnail {
+ 		padding: 20px;
+ 	}
+ 	.product-thumbnail img {
+ 		width: 200px;
+ 		border: 1px solid #ccc;
+ 	}
+ 	.actions {
+ 		td {
+ 			padding: 30px 0;
+ 		} 		
+ 		border-bottom: 5px solid $red;
+ 	}
+ 	.trash {
+ 		font-size: 1.8em;
+ 		line-height: 1em;
+ 	} 	
+ }
+ 
+ .woocommerce-cart .order-total { 	
+
+	td {
+			font-size: 3em;
+			color: $grey-light; 	
+			background: #fff;			
+			text-align: right;
+			padding: 0;
+		} 	
+ } 
+ .continue-shopping a,
+ .wc-proceed-to-checkout .checkout-button.wc-forward,
+ .return-to-shop .wc-backward {
+ 	background: $red;
+ 	font-size: 1em;
+ 	color: #fff;
+ 	float: right;
+ 	padding: 5px 20px;
+ 	margin-left: 10px;
+ 	border-radius: 0;
+ 	text-transform: uppercase;
+ 	
+ 	&:hover {
+ 		background: $orange;
+ 	}
+ }
+ 
+ .btnUpdate {
+		float: right !important;
+		background: $orange !important;
+ }
+ 
+ .coupon .button,
+ .checkout_coupon .button,
+ #payment .button {
+ 	background: $orange !important;
+ }
+ 
+ .checkout_coupon {
+ 	margin: 20px 0;
+ }
+ 
+ .woocommerce-billing-fields,
+ .woocommerce-shipping-fields {
+ 
+ .select2-choice {
+ 	border: 2px solid $orange; 	
+ 	padding: 5px;
+ 	margin-top: 1px;
+ }
+ 	input[type="text"],
+ 	input[type="password"],
+ 	textarea {
+ 		border: 2px solid $orange;
+ 		border-radius: 0;
+ 		font-weight: bold;
+ 		padding: 5px 10px;
+ 	}
+ }
+ #ship-to-different-address {
+ 
+ 	label {
+ 		float: left;
+ 		margin: 10px 10px 0 0;
+ 	}
+
+ }
+ 
+ .woocommerce-checkout-review-order-table {
+ 	th {
+ 		border-color: $red;
+ 	}
+ 	.cart_item td {
+ 		padding: 20px;
+ 	}
+ 	.cart-subtotal {
+ 		border-top: 5px solid $red;
+ 	}
+ 	background: #fff;
+ }
+ 
+ .woocommerce-checkout {
+ 		font-size: 1.24em;
+ 		.lost_password {
+ 			clear: both;
+ 		}
+ 		.form-row {
+ 				width: 100%;
+ 			}
+ 		.form-row-first,
+ 		.form-row-last {
+ 			width: 45%;
+ 		}
+ 		.button {
+ 			float: right;
+ 			width: 200px;
+ 			padding: 10px;
+ 			background: $orange;
+ 			font-size: 1.2em;
+ 		}
+ 		
+ }
+ 
+.payment_method_paypal img {
+	display: none !important;
+} 
+ .order-success {
+ 	padding-top: 40px;
+ 	font-size: 1.2em;
+ 	
+ 	ul.order_details {
+ 		border: 3px solid $red;
+ 		border-radius: 0;
+ 		li {
+ 				list-style: none;
+ 				border: 0;
+ 			}
+ 	}
+ 	
+ 	h2 {
+ 		font-size: 1.4em;
+ 	}
+ 	table.order_details {
+ 		border-bottom: 5px solid $red;
+ 		th {
+ 			padding: 10px 20px;
+ 		}
+ 		tbody td {
+ 			padding: 20px;
+ 		}
+ 		.product-total {
+ 			width: 20%;
+ 		}
+ 		tbody {
+ 			border-bottom: 1px solid #ccc;
+ 		}
+ 		tfoot th {
+ 			text-align: right;
+ 		}
+ 	}
+ 	table.customer_details {
+ 		th {
+ 			width: 15%;
+ 		}
+ 	}
+ 	.addresses {
+ 		
+ 		div {
+ 			border: 1px solid #ccc;
+ 			padding: 20px;
+ 		}
+ 	}
+ }
+ 
+ 
+ 
+ /* STATIC PAGES */
+ .page {	
+	.entry {
+		padding: 0;
+		font-size: 1.4em;
+		
+		@include respond-to(iphone) {
+			padding: 0 10px;
+		}
+		
+		p {
+			margin-bottom: 1em;
+		}
+		
+		ul {
+			list-style-position: inside;
+			list-style-type: square;
+			margin: 20px 0;
+		}
+		img.alignleft {
+			margin: 0 50px 50px 0;
+		}
+		h1 {
+			font-size: 2em;
+		}		
+		h2 {
+			font-size: 1.8em;
+			margin-bottom: 1em;
+		}
+		hr {
+			clear: both;
+			margin: 50px 0;
+		}
+		@include respond-to(iphone) {
+			img {
+				width: 100%;
+				display: block;
+			}
+		}
+	}
+	 	
+ }
+ 
+ /* POSTS */
+ #main .post .post-thumb {
+ 	width: 20%;
+ 	float: left;
+ 	margin-right: 5%;
+
+ 	@include respond-to(iphone) {
+ 		width: 100%;
+ 		margin: 0 0 10px 0;
+ 		
+ 		img {
+ 			width: 100%;
+ 		}
+ 	}
+ 	
+ }
+ #main .post .post-content {
+ 	width: 75%;
+ 	margin: 0;
+ 	font-size: 1.4em;
+ 	
+ 	@include respond-to(iphone) {
+ 		width: 100%;
+ 		padding: 0 10px;
+ 	}
+ 	
+ 	.entry {
+ 		padding: 0;
+ 	}
+ 	h1 {
+ 		font-size: 2em;
+ 	}
+ 	h2 {
+ 		font-size: 1.8em;
+ 	}
+ 	h3 {
+ 		font-size: 1.6em;
+ 	}
+ }
+
+.title-head {
+	width: 100%;
+	position: relative;
+	margin: 22px 0 50px 0;
+	border-bottom: 1px solid #ccc;
+	
+	&.orange {
+		border-color: $orange;		
+		.sec-title {
+			color: $orange;
+			border-color: $orange;
+		}		
+	}
+	
+	&.red {
+		border-color: $red;
+		.sec-title {
+			color: $red;
+			border-color: $red;
+		}
+	}
+	
+	&.blue {
+		border-color: $blue;		
+		.sec-title {
+			color: $blue;
+			border-color: $blue;
+		}		
+	}
+	
+}
+
+/* SUBSCRIBE */
+.subscribe-page {
+	
+	.right {
+		border-color: $blue;
+	}
+	.fi.subscribe {
+		font-size: 1.2em;
+		strong {
+			float: left;
+			margin: 0 20px 0 0;
+		}
+		label {
+			font-weight: bold;
+			margin: 0 15px;
+		}		
+	}
+	
+	input {
+		border-color: $blue !important;
+	}
+	
+	button {
+		background: $blue !important;
+	}
+	
+}
+
+
+/* Customer Testimonials */
+.customer-testimonials {
+	@include respond-to(iphone) {
+		padding: 0 10px;
+	}
+	article {
+		font-size: 1.2em;
+		margin: 0 0 2em 0;
+		
+		.title {
+			color: $red;
+		}
+		
+		.date {
+			margin-left: 50px;
+		}
+		
+		.test-content {
+			margin: 10px 0 50px;
+		}
+	}
+	
+	.star-rating {
+		
+		letter-spacing: .5em;
+		width: 7em;
+		
+		span:before {
+			color: $red;
+			letter-spacing: .5em;
+		}
+	}
+	
+}
+
+.news-events {
+	
+	article {
+		width: 100%;
+		float: left;
+		margin: 0 0 50px 0;
+	}
+	.post-thumb {
+		width: 200px;
+		height: 200px;
+		float: left;
+		margin: 0 20px 20px 0;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+			height: auto;
+		}
+		
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}	
+	.news-content {
+		width: 720px;
+		float: left;
+		margin-left: 20px;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+			padding: 0 10px;
+			margin: 0;
+		}
+		
+		.title {
+			a {
+				color: $red;
+				font-size: 1.6em;
+			}
+		}
+		
+		strong {
+			color: #555;
+		}
+		.excerpt {
+			margin: 10px 0 0 0;	
+			font-size: 1.2em;
+		}
+	}	
+	.read-more {
+		clear: both;
+		display: block;
+		width: 150px;
+		text-align: center;
+		color: #fff;
+		background: $blue;
+		padding: 5px 20px;
+		margin: 10px 0 0 0;
+	}
+}
+
+.single-post {
+	#comments {
+		font-size: 1.2em;
+		width: 100%;
+		padding: 30px 0;
+		margin: 0;
+		border-top: 3px solid $red;
+	}
+	.comment_container {
+		width: 100% !important;
+		border: 1px solid #ddd;
+		padding: 20px !important;
+		margin: 20px 0 !important;
+	}
+	.comment-text {
+		float: right !important;
+		padding: 0 !important;
+		margin:  0 !important;
+	}
+}
+
+.retailer {
+	
+	width: 90% !important;	
+	margin: 0 auto !important;
+	
+	#main {		
+		position: relative;
+		
+		@include respond-to(iphone) {
+			width: 100% !important;
+			max-width: 100% !important;
+			padding: 0 10px;
+		}
+	}
+	
+	#map {
+		border: 3px solid $orange;
+		float: left;
+		width: 50% !important;
+		
+		@include respond-to(iphone) {
+			width: 100% !important;
+		}
+		
+	}
+	.search-col {
+		width: 45%;
+		float: left;
+		margin-left: 2%;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+			margin: 20px 0 0 0;
+		}
+	}
+	#store_container {
+		width: 100%;
+		height: 265px;
+		overflow: hidden;
+		position: relative;
+		border: 3px solid $blue;
+		float: left;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+			margin: 10px 0 0 0;
+		}
+	}
+	.title {
+		width: 100%;
+		text-align: center;
+		background: $red;
+		color: #fff;
+		padding: 10px;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+		}
+	}
+	
+	form {
+		float: left;
+		width: 100%;		
+		margin: 10px 0 20px 0;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+			margin: 10px 0;
+		}
+		
+		input[type="text"] {
+			width: 85% !important;
+			border: 3px solid $blue;
+			border-radius: 0;
+			font-size: 1.2em;
+			font-weight: bold;
+			color: #555;
+			
+			@include respond-to(iphone) {
+				width: 100% !important;
+			}
+		}
+		
+		#store_wpress_search_btn {
+			background: $blue;
+			padding: 14px 20px 13px !important;
+			float: right;
+			border-radius: 0;
+			width: 15%;
+			
+			@include respond-to(iphone) {
+				width: 100%;
+				margin-top: 10px;
+			}
+			
+		}
+		
+	}
+	.store {
+		font-size: 1.2em;
+		padding: 20px;
+		border-bottom: 1px solid #ddd;
+		display: block;
+		
+		strong {
+			color: $blue;
+		}
+		
+		&:hover {
+			background: $blue;
+			color: #fff;
+			
+			strong {
+				color: #fff;
+			}
+		}
+	
+	}
+	em.none {
+		float: right;
+		margin: 0 70px 0 0;
+	}
+}
+
+/* DADA */
+  .login {   
+		.usered {
+			width: 100%;
+			text-align: center;
+			font-size: 1.6em;
+			border: 3px solid $blue;
+			padding: 20px 30px;
+			position: relative;
+			margin-bottom: 20px;
+			
+			h2 {
+				color: $blue;
+				margin: 0;
+			}
+			
+			.closeBtn {
+				font-size: .6em;
+				position: absolute;
+				top: 0;
+				right: 0;
+				background: $blue;
+				color: #fff;
+				padding: 5px;
+			}
+		}		
+      .title {
+        position: absolute;
+        bottom: -38px;
+        left: 50%;
+        margin-left: -190px;
+        width: 380px;
+        border: 3px solid #f7941d; 
+        text-align: center;
+        padding: 10px;
+        color: #f7941d;
+        font-size: 1.8em;
+  			font-style: italic;
+        z-index: 99;
+        background-color: #fff;      
+      }
+    }
+
+    .left {
+      float: left;
+      width: 50%;
+      padding-right: 20px;
+      font-size: 1.2em;
+      
+      @include respond-to(iphone) {
+      	width: 100%;
+      	padding: 0 20px;
+      }
+      
+      h1 {
+      	font-size: 1.6em;
+      	margin-bottom: 1em;
+      	color: $red;
+      }
+      p {
+      	margin-bottom: 1.5em;
+      }
+    }
+
+    .right {
+      float:left;
+      width: 45%;
+      margin-top: 20px;
+      border-left: 1px solid $lo;
+      padding-left: 5%;
+      
+      @include respond-to(iphone) {
+      	width: 100%;
+      	padding: 0 20px;
+      }
+      
+      .fi {
+      	margin-bottom: 20px;
+      	
+      	> input[type="text"],
+      	> input[type="password"],
+      	> input[type="email"] {
+      		border: 3px solid #f7941d;
+      		padding: 5px 30px;
+      		font-size: 1em;
+      		font-weight: bold;
+      		width: 100%;
+      	}
+      }
+      
+      .optional {
+				float: right;
+				margin: 10px 0 0 0;
+				color: $orange;
+				font-weight: bold;
+      }
+      
+      button {
+      	font-size: 1em;
+      	background: #f7941d;
+      	border: 0;
+      	color: #fff;
+      	padding: 10px 40px;
+      	font-weight: bold;
+      }
+      
+      .login {
+      	margin-bottom: 40px;
+      	.fi {
+      		width: 100%;
+      	}
+      }
+      .two-col {
+      	.fi {
+      		width: 49%;
+      		float: left;
+      		margin-right: 2%;
+      		
+      		&:last-child {
+      			margin-right: 0;
+      		}
+      	}
+      }
+      .signup {
+      	h1 {
+      		font-size: 2em;
+      		color: #7d7d7d;
+      		margin-bottom: 1em;
+      	}
+      	.subscribe,
+      	.bday {
+      		strong {
+      			font-size: 1.6em;
+      			font-weight: normal;
+      			float: left;
+      			margin-right: 20px;      			
+      		}
+      	}
+      	
+      	.bday strong {
+      		margin-top: 5px;
+      	}
+      	
+      	.bday .select2 {
+      		margin: 10px 0 0 0;
+      	}
+      	
+      	.subscribe strong {
+      		margin-top: -2px;
+      	}
+      	
+      	.icheck {
+					label {
+						font-size: 1em;
+						font-weight: bold;
+						margin: 0 10px 0 10px;
+					}
+      	}
+      	
+      	.day {
+      		width: 50px;
+      	}
+      	.month {
+      		width: 50px;
+      	}
+      	.year {
+      		width: 100px;
+      	}
+      	
+      	.terms {
+      		font-size: .9em;
+      		color: #7d7d7d;
+      	}
+      	button {
+      		margin: 20px 0;
+      	}
+      }      
+    }
+	
+	#footer {
+		.mc4wp-form form {
+			float: right;
+			width:550px;
+			height: 100%;
+			color: #fff;
+			background-color: #525252;
+			padding: 0 10px;
+			font-size: 1em;
+			
+			@include respond-to(iphone) {
+				width: 100%;
+			}
+		
+			strong {
+				float: left;
+				height: 36px;
+				line-height: 36px;
+			}						
+		
+			.fi {
+				float: right;
+				width: 330px;
+				margin: 3px 0 0 0;
+				
+				@include respond-to(iphone) {
+					width: 100%;
+					margin: 0 0 20px 0;
+				}
+			
+				input {
+					width: 248px;
+					float: right;
+					margin-right: 2px;
+					font-size: 1em;
+					font-weight: bold;
+					padding: 0 20px;
+					height: 30px;
+					border: 0;
+					border-radius: 0;
+					
+					@include respond-to(iphone) {
+						width: 90%;
+						margin: 0;
+					}
+				}        
+			}
+			
+			button {
+				float: right;
+				font-size: 1.1em;
+				background: #fff;
+				border: 0;
+				margin-right: 2px;
+				width: 35px;
+				height: 30px;
+				cursor: pointer;
+				
+				@include respond-to(iphone) {
+					margin: 0;
+					width: 10%;
+				}
+			}
+			
+		}	
+		
+		.mc4wp-alert {
+			clear: both;
+			float: right;
+			padding: 10px 15px;
+			margin-bottom: 20px;			
+			margin-top: -10px;
+			color: #fff;
+			
+			&.mc4wp-success {
+				background: $blue;
+			}
+			&.mc4wp-error {
+				background: $red;
+			}
+		}
+}  
+
+.wpcf7-form {
+	width: 860px;
+	margin: 0 auto;
+	
+	@include respond-to(iphone) {
+		width: 100%;
+	}
+	p {
+		width: 49%;
+		float: left;
+		margin: 0 1% 10px 0 !important;
+		position: relative;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+		}
+	}
+	p.fullw {
+		width: 100%;
+	}
+	p.captcha {
+		
+		input {
+			width: 60%;
+			float: left;
+			margin-left: 10px;
+		}
+		.wpcf7-captchac {
+			width: 35%;
+			float: left;
+		}
+	}
+	input,
+	textarea {
+		border: 4px solid $orange;
+		border-radius: 0;
+		padding: 10px;
+		
+		@include respond-to(iphone) {
+			font-size: .8em;
+		}
+	}
+	.wpcf7-textarea {
+		height: 10em;
+	}
+	.submit-wrapper {
+		width: 300px;
+		clear: both;
+		float: none;
+		margin: 0 auto !important;
+		
+		@include respond-to(iphone) {
+			width: 100%;
+		}
+	}
+	.wpcf7-submit {
+		background: $red;
+		border: 0;
+		width: 100%;
+		margin-top: 20px;
+		
+		@include respond-to(iphone) {
+			padding: 20px;
+		}
+	}
+	.wpcf7-not-valid-tip {
+		clear: both;
+	}
+	
+} 
+
+/* PAGE SPECIFIC */
+.page-template-page-online-shops {
+	
+	#main {
+		width: 100%;
+		margin: 0;
+	}
+	
+	@include respond-to(iphone) {
+		table a {
+			word-break: break-all;
+		}
+	}
+	
+	table, td, th {
+		border: 3px solid $orange;		
+	}
+	
+	th {
+		width: 30%;
+	}
+	tr:hover td,
+	tr:hover th {
+		background: $orange;
+		color: #fff;
+		
+		a {
+			color: #fff;
+		}
+	}
+	
+}
+
+.shipping-table {
+	@include respond-to(iphone) {
+		font-size: .8em;
+	}
+}
+
+.ingredients {
+	table {
+		background: #fff;
+		border: 0;
+	}
+	th {
+		width: 35%;
+		font-weight: bold;
+		border: 0;
+		
+		@include respond-to(iphone) {
+			width: 50%;
+		}
+		
+		img {		
+			margin: 0 !important;
+		}
+	}
+	td {
+		background: #fff !important;
+		vertical-align: middle;
+		border: 0;
+		
+		@include respond-to(iphone) {
+			font-size: .8em;
+		}
+	}
+}
+
+.table2 {
+	background: #fff;
+	
+	th {
+		padding: 0;
+		width: 150px;
+	}
+	td {
+		background: #fff !important;	
+		padding: 0 20px;
+		vertical-align: middle;
+		font-weight: bold;
+	}
+}
+
+// MY ACCOUNT
+
+.woocommerce-account {
+
+	.main {
+		margin-top: 20px;
+	}
+	
+	.woocommerce {
+		h2 {
+			margin: 0 0 10px 0;
+			color: $red;
+		}
+		h3 {
+			color: $red;
+			padding-bottom: 10px;
+			border-bottom: 4px solid $red;
+			text-transform: uppercase;
+		}	
+		
+		input[type="text"],
+		textarea,
+		.select2-container,
+		input[type="email"],
+		input[type="password"] {
+			border: 4px solid $orange;
+			border-radius: 0;
+		}
+		.select2-choice {
+			border: 0;
+			padding: 7px 10px;
+		}
+		
+		input.button {
+			background: $red;
+			width: 100%;
+			text-transform: uppercase;
+			padding: 20px;
+		}
+		
+		fieldset {
+			margin-bottom: 20px;
+			
+			legend {
+				font-weight: bold;
+				color: $red;
+				text-transform: uppercase;
+			}
+		}
+		
+		
+	}
+	
+	table.shop_table {
+		
+		border: 4px solid $blue;
+		tr {
+			border-bottom: 1px solid $blue;
+		}
+		@include respond-to(iphone) {
+			th, td {
+				padding: 10px;
+			}
+		}
+	}
+	
+	.address {
+		border: 4px solid $blue;
+		padding: 20px;
+		
+		
+		@include respond-to(iphone) {
+			margin: 15px;
+		}
+	}
+}

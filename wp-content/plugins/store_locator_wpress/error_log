@@ -1,0 +1,44 @@
+[01-Jun-2016 03:54:27 Asia/Singapore] PHP Fatal error:  Call to undefined function add_action() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/activation.php on line 2
+[01-Jun-2016 03:54:50 Asia/Singapore] PHP Fatal error:  Class 'WP_Widget' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_search_widget.php on line 3
+[01-Jun-2016 03:55:13 Asia/Singapore] PHP Fatal error:  Call to undefined function get_option() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress.php on line 10
+[01-Jun-2016 03:55:59 Asia/Singapore] PHP Fatal error:  Class 'Store_locator_wpress_activation' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress_admin.php on line 6
+[01-Jun-2016 03:56:22 Asia/Singapore] PHP Fatal error:  Class 'WP_Widget' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_closest_stores_widget.php on line 3
+[01-Jun-2016 03:56:45 Asia/Singapore] PHP Fatal error:  Call to undefined function add_filter() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress_display.php on line 6
+[01-Jun-2016 12:11:46 Asia/Singapore] PHP Fatal error:  Class 'Store_locator_wpress_activation' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress_admin.php on line 6
+[01-Jun-2016 12:11:56 Asia/Singapore] PHP Fatal error:  Call to undefined function get_option() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress.php on line 10
+[01-Jun-2016 12:12:07 Asia/Singapore] PHP Fatal error:  Class 'WP_Widget' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_closest_stores_widget.php on line 3
+[01-Jun-2016 12:12:07 Asia/Singapore] PHP Fatal error:  Call to undefined function add_action() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/activation.php on line 2
+[01-Jun-2016 12:12:17 Asia/Singapore] PHP Fatal error:  Class 'WP_Widget' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_search_widget.php on line 3
+[01-Jun-2016 12:12:27 Asia/Singapore] PHP Fatal error:  Call to undefined function add_filter() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress_display.php on line 6
+[12-Jun-2016 01:52:23 Asia/Singapore] PHP Fatal error:  Call to undefined function add_action() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/activation.php on line 2
+[12-Jun-2016 01:52:53 Asia/Singapore] PHP Fatal error:  Class 'WP_Widget' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_search_widget.php on line 3
+[12-Jun-2016 01:53:24 Asia/Singapore] PHP Fatal error:  Call to undefined function get_option() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress.php on line 10
+[12-Jun-2016 01:53:56 Asia/Singapore] PHP Fatal error:  Class 'Store_locator_wpress_activation' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress_admin.php on line 6
+[12-Jun-2016 01:54:57 Asia/Singapore] PHP Fatal error:  Class 'WP_Widget' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_closest_stores_widget.php on line 3
+[12-Jun-2016 01:56:30 Asia/Singapore] PHP Fatal error:  Call to undefined function add_filter() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/store_locator_wpress_display.php on line 6
+[29-Jun-2017 09:48:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Store_locator_wpress_display has a deprecated constructor in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_display.php on line 3
+[29-Jun-2017 09:48:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_display.php:6
+Stack trace:
+#0 /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_display.php(304): Store_locator_wpress_display->Store_locator_wpress_display()
+#1 {main}
+  thrown in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_display.php on line 6
+[09-Jul-2017 16:36:31 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Store_locator_wpress_activation has a deprecated constructor in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/activation.php on line 2
+[09-Jul-2017 16:36:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/activation.php:2
+Stack trace:
+#0 /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/activation.php(16): Store_locator_wpress_activation->Store_locator_wpress_activation()
+#1 {main}
+  thrown in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/activation.php on line 2
+[09-Jul-2017 16:39:35 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_search_widget.php on line 3
+[09-Jul-2017 16:39:58 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Store_locator_wpress has a deprecated constructor in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress.php on line 49
+[09-Jul-2017 16:39:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress.php on line 10
+[09-Jul-2017 16:47:15 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Store_locator_wpress_db has a deprecated constructor in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_db.php on line 3
+[09-Jul-2017 16:57:59 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Store_locator_wpress_admin has a deprecated constructor in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_admin.php on line 3
+[09-Jul-2017 16:57:59 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Store_locator_wpress_activation' not found in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_admin.php:6
+Stack trace:
+#0 /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_admin.php(678): Store_locator_wpress_admin->Store_locator_wpress_admin()
+#1 {main}
+  thrown in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_locator_wpress_admin.php on line 6
+[09-Jul-2017 17:05:39 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/store_closest_stores_widget.php on line 3

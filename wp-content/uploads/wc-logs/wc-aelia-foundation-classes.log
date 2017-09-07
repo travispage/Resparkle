@@ -1,0 +1,4 @@
+[2017-05-18 05:20:56] wc-aelia-foundation-classes.DEBUG: [Semaphore] Semaphore lock "WC_AELIA_AFC" obtained at 2017-05-18 05:20:56. [] {"process_id":685225}
+[2017-05-18 05:20:56] wc-aelia-foundation-classes.DEBUG: [Semaphore] Semaphore "WC_AELIA_AFC" unlocked. [] {"process_id":685225}
+[2017-06-14 08:54:00] wc-aelia-foundation-classes.DEBUG: [Semaphore] Semaphore lock "WC_AELIA_AFC" obtained at 2017-06-14 08:54:00. [] {"process_id":928853}
+[2017-06-14 08:54:00] wc-aelia-foundation-classes.DEBUG: [Semaphore] Semaphore "WC_AELIA_AFC" unlocked. [] {"process_id":928853}

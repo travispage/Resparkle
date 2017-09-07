@@ -1,0 +1,35 @@
+12-07-2016 @ 20:10:15 - Queuing 2.6.0 - wc_update_260_options
+12-07-2016 @ 20:10:15 - Queuing 2.6.0 - wc_update_260_termmeta
+12-07-2016 @ 20:10:15 - Queuing 2.6.0 - wc_update_260_zones
+12-07-2016 @ 20:10:15 - Queuing 2.6.0 - wc_update_260_zone_methods
+12-07-2016 @ 20:10:15 - Queuing 2.6.0 - wc_update_260_refunds
+12-07-2016 @ 20:10:15 - Queuing 2.6.0 - wc_update_260_db_version
+12-07-2016 @ 20:10:17 - Running wc_update_260_options callback
+12-07-2016 @ 20:10:17 - Finished wc_update_260_options callback
+12-07-2016 @ 20:10:17 - Running wc_update_260_termmeta callback
+12-07-2016 @ 20:10:17 - Finished wc_update_260_termmeta callback
+12-07-2016 @ 20:10:17 - Running wc_update_260_zones callback
+12-07-2016 @ 20:10:17 - Finished wc_update_260_zones callback
+12-07-2016 @ 20:10:17 - Running wc_update_260_zone_methods callback
+12-07-2016 @ 20:10:17 - Finished wc_update_260_zone_methods callback
+12-07-2016 @ 20:10:17 - Running wc_update_260_refunds callback
+12-07-2016 @ 20:10:17 - Finished wc_update_260_refunds callback
+12-07-2016 @ 20:10:17 - Running wc_update_260_db_version callback
+12-07-2016 @ 20:10:17 - Finished wc_update_260_db_version callback
+12-07-2016 @ 20:10:17 - Data update complete
+2017-05-19T00:03:39+00:00 INFO Queuing 3.0.0 - wc_update_300_webhooks
+2017-05-19T00:03:39+00:00 INFO Queuing 3.0.0 - wc_update_300_grouped_products
+2017-05-19T00:03:39+00:00 INFO Queuing 3.0.0 - wc_update_300_settings
+2017-05-19T00:03:39+00:00 INFO Queuing 3.0.0 - wc_update_300_product_visibility
+2017-05-19T00:03:39+00:00 INFO Queuing 3.0.0 - wc_update_300_db_version
+2017-05-19T00:03:39+00:00 INFO Running wc_update_300_webhooks callback
+2017-05-19T00:03:39+00:00 INFO Finished wc_update_300_webhooks callback
+2017-05-19T00:03:39+00:00 INFO Running wc_update_300_grouped_products callback
+2017-05-19T00:03:39+00:00 INFO Finished wc_update_300_grouped_products callback
+2017-05-19T00:03:39+00:00 INFO Running wc_update_300_settings callback
+2017-05-19T00:03:39+00:00 INFO Finished wc_update_300_settings callback
+2017-05-19T00:03:39+00:00 INFO Running wc_update_300_product_visibility callback
+2017-05-19T00:03:39+00:00 INFO Finished wc_update_300_product_visibility callback
+2017-05-19T00:03:39+00:00 INFO Running wc_update_300_db_version callback
+2017-05-19T00:03:39+00:00 INFO Finished wc_update_300_db_version callback
+2017-05-19T00:03:39+00:00 INFO Data update complete

@@ -1,0 +1,412 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+/*-----------------------------------------------------------------------------------*/
+/* Start WooThemes Functions - Please refrain from editing this section */
+/*-----------------------------------------------------------------------------------*/
+
+// WooFramework init
+require_once ( get_template_directory() . '/functions/admin-init.php' );
+
+/*-----------------------------------------------------------------------------------*/
+/* Load the theme-specific files, with support for overriding via a child theme.
+/*-----------------------------------------------------------------------------------*/
+
+$includes = array(
+				'includes/theme-options.php', 			// Options panel settings and custom settings
+				'includes/theme-functions.php', 		// Custom theme functions
+				'includes/theme-actions.php', 			// Theme actions & user defined hooks
+				'includes/theme-comments.php', 			// Custom comments/pingback loop
+				'includes/theme-js.php', 				// Load JavaScript via wp_enqueue_script
+				'includes/sidebar-init.php', 			// Initialize widgetized areas
+				'includes/theme-widgets.php',			// Theme widgets
+				'includes/theme-plugin-integrations.php'// Plugin integrations
+				);
+
+// Allow child themes/plugins to add widgets to be loaded.
+$includes = apply_filters( 'woo_includes', $includes );
+
+foreach ( $includes as $i ) {
+	locate_template( $i, true );
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* You can add custom functions below */
+/*-----------------------------------------------------------------------------------*/
+
+add_theme_support('post-thumbnails');
+
+add_action('init', 'promo_register');
+add_action('init', 'feat_register');
+add_action('init', 'testimonial_register');
+add_action('init', 'ingredient_register');
+//add_action('init', 'faq_register');
+add_action('init', 'impact_register');
+add_action('admin_init', 'admin_init');
+
+function admin_init()
+{
+	add_meta_box("test_author", "Author", "test_author", "testimonial", "normal", "low");
+	add_meta_box("test_from", "From", "test_from", "testimonial", "normal", "low");
+	add_meta_box("test_rating", "Rating", "test_rating", "testimonial", "normal", "low");
+	add_meta_box("feat_link", "URL", "feat_link", "feature-wall-item", "normal", "low");
+}
+
+function feat_link(){
+  global $post;
+  $custom = get_post_custom($post->ID);
+  $url = $custom["feat_link"][0];
+  ?>
+  <input style="width: 100%;" name="url" value="<?php echo $url; ?>"/>
+  <?php
+}
+
+function test_author(){
+  global $post;
+  $custom = get_post_custom($post->ID);
+  $test_author = $custom["test_author"][0];
+  ?>
+  <input style="width: 100%;" name="test_author" value="<?php echo $test_author; ?>"/>
+  <?php
+}
+
+function test_from(){
+  global $post;
+  $custom = get_post_custom($post->ID);
+  $test_from = $custom["test_from"][0];
+  ?>  
+  <input style="width: 40%;" name="test_from" value="<?php echo $test_from; ?>"/>
+  <em>This shows as the nationality/origin of the testimonial's author</em>
+  <?php
+}
+
+function test_rating(){
+  global $post;
+  $custom = get_post_custom($post->ID);
+  $test_rating = $custom["test_rating"][0];
+  ?>  
+  <select name="test_rating" style="width: 100px;">
+  	<option value="5" <?php echo ($test_rating == 5 ? 'selected' : '');?>>5</option>
+  	<option value="4" <?php echo ($test_rating == 4 ? 'selected' : '');?>>4</option>
+  	<option value="3" <?php echo ($test_rating == 3 ? 'selected' : '');?>>3</option>
+  	<option value="2" <?php echo ($test_rating == 2 ? 'selected' : '');?>>2</option>
+  	<option value="1" <?php echo ($test_rating == 1 ? 'selected' : '');?>>1</option>
+  </select>
+  <em>Rating of this testimonial</em>
+  <?php
+}
+
+add_action('save_post', 'save_testimonial');
+
+add_action('save_post', 'save_feature_link');
+
+function save_feature_link(){
+  global $post; 
+  update_post_meta($post->ID, "feat_link", $_POST["url"]);  
+}
+
+function save_testimonial(){
+  global $post;
+ 
+  update_post_meta($post->ID, "test_author", $_POST["test_author"]);
+  update_post_meta($post->ID, "test_from", $_POST["test_from"]);
+  update_post_meta($post->ID, "test_rating", $_POST["test_rating"]);
+}
+ 
+function promo_register() {
+ 
+	$labels = array(
+		'name' => _x('Promotions', 'post type general name'),
+		'singular_name' => _x('Promotion', 'post type singular name'),
+		'add_new' => _x('Add New', 'promo item'),
+		'add_new_item' => __('Add New Promo Item'),
+		'edit_item' => __('Edit Promo Item'),
+		'new_item' => __('New Promo Item'),
+		'view_item' => __('View Promo Item'),
+		'search_items' => __('Search Promotion'),
+		'not_found' =>  __('Nothing found'),
+		'not_found_in_trash' => __('Nothing found in Trash'),
+		'parent_item_colon' => ''
+	);
+ 
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'query_var' => true,
+		'menu_icon' => '',
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array('title','editor','thumbnail')
+	  ); 
+ 
+	register_post_type( 'promo' , $args );
+}
+
+function feat_register() {
+ 
+	$labels = array(
+		'name' => _x('Feature Wall', 'post type general name'),
+		'singular_name' => _x('Feature Wall Item', 'post type singular name'),
+		'add_new' => _x('Add New', 'feature-wall-item'),
+		'add_new_item' => __('Add New Feature Wall Item'),
+		'edit_item' => __('Edit Feature Wall Item'),
+		'new_item' => __('New Feature Wall Item'),
+		'view_item' => __('View Feature Wall Item'),
+		'search_items' => __('Search Feature Wall Items'),
+		'not_found' =>  __('Nothing found'),
+		'not_found_in_trash' => __('Nothing found in Trash'),
+		'parent_item_colon' => ''
+	);
+ 
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'query_var' => true,
+		'menu_icon' => '',
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array('title','editor','thumbnail')
+	  ); 
+ 
+	register_post_type( 'feature-wall-item' , $args );
+}
+
+function ingredient_register() {
+ 
+	$labels = array(
+		'name' => _x('Ingredients', 'post type general name'),
+		'singular_name' => _x('Ingredient', 'post type singular name'),
+		'add_new' => _x('Add New', 'ingredient item'),
+		'add_new_item' => __('Add New Ingredient'),
+		'edit_item' => __('Edit Ingredient'),
+		'new_item' => __('New Ingredient'),
+		'view_item' => __('View Ingredient'),
+		'search_items' => __('Search Ingredients'),
+		'not_found' =>  __('Nothing found'),
+		'not_found_in_trash' => __('Nothing found in Trash'),
+		'parent_item_colon' => ''
+	);
+ 
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'query_var' => true,
+		'menu_icon' => '',
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array('title','editor','thumbnail')
+	  ); 
+ 
+	register_post_type( 'ingredient' , $args );
+}
+
+function faq_register() {
+ 
+	$labels = array(
+		'name' => _x('FAQs', 'post type general name'),
+		'singular_name' => _x('FAQ', 'post type singular name'),
+		'add_new' => _x('Add New', 'faq item'),
+		'add_new_item' => __('Add New FAQ'),
+		'edit_item' => __('Edit FAQ'),
+		'new_item' => __('New FAQ'),
+		'view_item' => __('View FAQ'),
+		'search_items' => __('Search FAQs'),
+		'not_found' =>  __('Nothing found'),
+		'not_found_in_trash' => __('Nothing found in Trash'),
+		'parent_item_colon' => ''
+	);
+ 
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'query_var' => true,
+		'menu_icon' => '',
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array('title','editor','thumbnail')
+	  ); 
+ 
+	register_post_type( 'faq' , $args );
+}
+
+function testimonial_register() {
+ 
+	$labels = array(
+		'name' => _x('Testimonials', 'post type general name'),
+		'singular_name' => _x('Testimonial', 'post type singular name'),
+		'add_new' => _x('Add New', 'Testimonial'),
+		'add_new_item' => __('Add New Testimonial'),
+		'edit_item' => __('Edit Testimonial'),
+		'new_item' => __('New Testimonial'),
+		'view_item' => __('View Testimonial'),
+		'search_items' => __('Search Testimonial'),
+		'not_found' =>  __('Nothing found'),
+		'not_found_in_trash' => __('Nothing found in Trash'),
+		'parent_item_colon' => ''
+	);
+ 
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'query_var' => true,
+		'menu_icon' => '',
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array('title','editor','thumbnail')
+	  ); 
+ 
+	register_post_type( 'testimonial' , $args );
+}
+
+function impact_register() {
+ 
+	$labels = array(
+		'name' => _x('Impacts', 'post type general name'),
+		'singular_name' => _x('Impact', 'post type singular name'),
+		'add_new' => _x('Add New', 'Impact item'),
+		'add_new_item' => __('Add New Impact Item'),
+		'edit_item' => __('Edit Impact Item'),
+		'new_item' => __('New Impact Item'),
+		'view_item' => __('View Impact Item'),
+		'search_items' => __('Search Impact'),
+		'not_found' =>  __('Nothing found'),
+		'not_found_in_trash' => __('Nothing found in Trash'),
+		'parent_item_colon' => ''
+	);
+ 
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'query_var' => true,
+		'menu_icon' => '',
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array('title','editor','thumbnail')
+	  ); 
+ 
+	register_post_type( 'Impact' , $args );
+}
+
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Post Image',
+            'id' => 'post-image',
+            'post_type' => 'Impact'
+        )
+    );
+}
+
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Supplementary Image',
+            'id' => 'supp-image',
+            'post_type' => 'Impact'
+        )
+    );
+}
+
+
+include_once('extendcomment.php');
+
+function new_excerpt_more( $more ) {
+	return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
+}
+add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+function extend_order_no()
+{
+	global $post;
+	$entend = '';
+	$old_id = get_post_meta( $post->ID, 'OID', TRUE );
+	if(!empty($old_id)) {
+		$entend = ' (OID: '.$old_id.')';
+	} 
+	return $post->ID . $entend;
+}
+//add_filter('woocommerce_order_number','extend_order_no');
+
+add_filter('show_admin_bar', '__return_false');
+
+// Sets the time for rss feeds to be cached. This applies to the blog feed pull on the home page.
+function feed_expiry_time( $seconds ) {
+  // change the default feed cache recreation period to 2 hours
+  return 60;
+}
+
+add_filter( 'wp_feed_cache_transient_lifetime' , 'feed_expiry_time' );
+
+
+// Detects if a currency has been selected with Aelia currency selector plugin. If not, pop up the currency pop up for user to choose.
+function currency_selector_popup()
+{
+	global $woocommerce;
+	
+	$curr = $woocommerce->session->get('aelia_cs_selected_currency');
+	
+	if( ! $curr ) {
+	?>
+	<div class="curr-overlay">
+	<div id="currency-selector">
+		<h1>Please select one:</h1>
+		<div class="buttons">
+			<?php echo do_shortcode('[aelia_currency_selector_widget widget_type="buttons"]');?>
+		</div>
+	</div>
+	</div>
+	<?php }
+}
+// add_action( 'wp_after_body', 'currency_selector_popup' );
+
+// Detects if shipping/billing country is same as selected currency. If not, synchronize and change currency programatically.
+function set_currency_programmatically() {
+	
+	if($_POST['country'] == 'AU') {
+		$_POST['aelia_cs_currency'] = 'AUD';	
+	}
+	if($_POST['country'] == 'CN') {
+		$_POST['aelia_cs_currency'] = 'CNY';	
+	}
+}
+add_action('woocommerce_init', 'set_currency_programmatically', 0);
+
+function my_currency_labels($currencies, $widget_type, $widget_title, $widget_template_name) {
+  $currencies['AUD'] = '<img class="cntry-icon au" src="http://resparkle.com.au/wp-content/themes/resparkle/images/au.png"> $ AUD';
+  $currencies['CNY'] = '<img class="cntry-icon cn" src="http://resparkle.com.au/wp-content/themes/resparkle/images/cn.png"> $ RMB';
+ 
+  return $currencies;
+}
+add_filter('wc_aelia_currencyswitcher_widget_currency_options', 'my_currency_labels', 10, 4);
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Don't add any code below here or the sky will fall down */
+/*-----------------------------------------------------------------------------------*/
+?>

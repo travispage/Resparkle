@@ -1,0 +1,20 @@
+05-18-2017 @ 05:56:25 - Updating to version 3.0.0.
+05-18-2017 @ 05:56:25 - - Queuing wc_pb_update_300 callback.
+05-18-2017 @ 05:56:25 - Updating to version 5.0.0.
+05-18-2017 @ 05:56:25 - - Queuing wc_pb_update_500_main callback.
+05-18-2017 @ 05:56:25 - - Queuing wc_pb_update_500_delete_unused_meta callback.
+05-18-2017 @ 05:56:25 - Updating to version 5.1.0.
+05-18-2017 @ 05:56:25 - - Queuing wc_pb_update_510_main callback.
+05-18-2017 @ 05:56:25 - - Queuing wc_pb_update_510_delete_unused_meta callback.
+05-18-2017 @ 05:56:26 - - Running wc_pb_update_300 callback...
+05-18-2017 @ 05:56:26 - - Finished wc_pb_update_300 callback.
+05-18-2017 @ 05:56:26 - - Running wc_pb_update_500_main callback...
+05-18-2017 @ 05:56:44 - - Finished wc_pb_update_500_main callback.
+05-18-2017 @ 05:56:44 - - Running wc_pb_update_500_delete_unused_meta callback...
+05-18-2017 @ 05:56:44 - - Finished wc_pb_update_500_delete_unused_meta callback.
+05-18-2017 @ 05:56:44 - - Running wc_pb_update_510_main callback...
+05-18-2017 @ 05:56:44 - - Finished wc_pb_update_510_main callback.
+05-18-2017 @ 05:56:44 - - Running wc_pb_update_510_delete_unused_meta callback...
+05-18-2017 @ 05:56:44 - - Finished wc_pb_update_510_delete_unused_meta callback.
+05-18-2017 @ 05:56:44 - Data update complete.
+05-18-2017 @ 05:56:44 - Database version is 5.2.4.

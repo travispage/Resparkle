@@ -1,0 +1,4 @@
+[01-Jun-2016 04:18:35 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/validation/color/validation_color.php on line 2
+[01-Jun-2016 12:11:14 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/validation/color/validation_color.php on line 2
+[12-Jun-2016 02:24:26 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/validation/color/validation_color.php on line 2
+[13-Jul-2017 14:09:01 America/Chicago] PHP Fatal error:  Class 'Redux_Options' not found in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/admin/options/validation/color/validation_color.php on line 2

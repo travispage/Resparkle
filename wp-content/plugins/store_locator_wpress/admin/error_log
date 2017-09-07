@@ -1,0 +1,8 @@
+[01-Jun-2016 03:59:51 Asia/Singapore] PHP Fatal error:  Call to undefined function trailingslashit() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/options.php on line 5
+[01-Jun-2016 12:12:37 Asia/Singapore] PHP Fatal error:  Call to undefined function trailingslashit() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/options.php on line 5
+[12-Jun-2016 02:00:07 Asia/Singapore] PHP Fatal error:  Call to undefined function trailingslashit() in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/options.php on line 5
+[09-Jul-2017 17:21:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function trailingslashit() in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/admin/options/options.php:5
+Stack trace:
+#0 /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/admin/options.php(5): require_once()
+#1 {main}
+  thrown in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/admin/options/options.php on line 5

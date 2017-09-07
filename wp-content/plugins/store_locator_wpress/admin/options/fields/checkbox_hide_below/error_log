@@ -1,0 +1,4 @@
+[01-Jun-2016 04:18:25 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/checkbox_hide_below/field_checkbox_hide_below.php on line 2
+[01-Jun-2016 12:11:36 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/checkbox_hide_below/field_checkbox_hide_below.php on line 2
+[12-Jun-2016 02:23:53 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/checkbox_hide_below/field_checkbox_hide_below.php on line 2
+[13-Jul-2017 11:27:00 America/Chicago] PHP Fatal error:  Class 'Redux_Options' not found in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/admin/options/fields/checkbox_hide_below/field_checkbox_hide_below.php on line 2

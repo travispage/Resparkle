@@ -1,0 +1,71 @@
+*** Pin Payments Gateway Changelog ***
+
+2017.04.03 - version 1.7.4
+ * Hides gateway on checkout for currencies not currently supported by Pin Payments (https://pin.net.au/docs/currency-support)
+ * Minor fix for error message presentation when payment fails
+
+2017.03.25 - version 1.7.3
+ * Fix for currencies with no decimal point
+ 
+2017.01.18 - version 1.7.2
+ * Fix for version numbering
+ * Added CRUD method of accessing order properties for WC 2.7
+ * Fix for the Order Pay page not pulling order address
+
+2017.01.18 - version 1.7.1
+ * Updated Pin Payments logo
+ 
+2016.09.22 - version 1.7
+ * Adds support for Mastercards starting with 2
+ * Now logs payment issues to WC logs
+ * Updated from deprecated CC form call
+ * Improved CC expiry date validation
+ 
+2015.09.22 - version 1.6
+ * Now supports all features of Subscriptions 2.0
+ * Fix - enable Pay button when selecting saved card
+
+2015.07.29 - version 1.5
+ * Switched to standard WooCommerce credit card form
+ * This will affect styles so please test your checkout page for design when upgrading
+
+2015.07.05 - version 1.4.1
+ * Fix - remove sslverify for increased security
+
+2015.05.11 - version 1.4
+ * Add option to disable Saved Cards functionality
+
+2015.05.02 - version 1.3.2
+ * Add support for Currency Switcher & Subscriptions combination
+
+2015.02.15 - version 1.3.1
+ * Fix to use wc_add_notice() rather than $woocommerce->add_error()
+ 
+2015.02.05 - version 1.3
+ * Switched to plugins_url() to accommodate for multisite installs with domain mapping
+ * Added support for Refunds
+ * Added standardised transaction ID meta & link to Pin transaction page
+
+2014.06.13 - version 1.2.1
+ * Fixed bug for error messaging for subscription payments
+
+2014.01.18 - version 1.2
+ * Added support for WooCommerce 2.1
+ 
+2014.01.06 - version 1.1.4
+ * Added error message for incorrect API credentials
+ 
+2013.11.18 - version 1.1.3
+ * Fix for jQuery 1.9
+
+2013.09.18 - version 1.1.2
+ * Added support for Subscriptions Payment Method Change
+
+2013.07.24 - version 1.1.1
+ * Friendly erroring when JS is disabled/doesn't fire
+
+2013.07.11 - version 1.1
+ * Javascript fix
+
+2013.05.23 - version 1.0
+ * First Release

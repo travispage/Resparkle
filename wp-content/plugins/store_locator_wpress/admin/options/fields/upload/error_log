@@ -1,0 +1,6 @@
+[01-Jun-2016 04:13:48 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/upload/field_upload.php on line 2
+[01-Jun-2016 23:28:32 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/upload/field_upload.php on line 2
+[02-Jun-2016 21:28:51 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/upload/field_upload.php on line 2
+[02-Jun-2016 22:43:03 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/upload/field_upload.php on line 2
+[05-Jun-2016 17:55:18 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/upload/field_upload.php on line 2
+[13-Jul-2017 05:42:35 America/Chicago] PHP Fatal error:  Class 'Redux_Options' not found in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/admin/options/fields/upload/field_upload.php on line 2

@@ -1,0 +1,6 @@
+[01-Jun-2016 04:15:51 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/tags_select/field_tags_select.php on line 2
+[01-Jun-2016 23:28:59 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/tags_select/field_tags_select.php on line 2
+[02-Jun-2016 06:38:56 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/tags_select/field_tags_select.php on line 2
+[02-Jun-2016 08:22:42 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/tags_select/field_tags_select.php on line 2
+[17-Jun-2016 17:07:06 Asia/Singapore] PHP Fatal error:  Class 'Redux_Options' not found in /home/resparkl/public_html/wp-content/plugins/store_locator_wpress/admin/options/fields/tags_select/field_tags_select.php on line 2
+[13-Jul-2017 11:08:49 America/Chicago] PHP Fatal error:  Class 'Redux_Options' not found in /home2/yempo/staging.salusco.com/wp-content/plugins/store_locator_wpress/admin/options/fields/tags_select/field_tags_select.php on line 2

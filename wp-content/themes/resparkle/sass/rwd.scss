@@ -1,0 +1,22 @@
+$break-iphone-min: 200px;
+
+$break-iphone-max: 480px;
+
+$break-ipad-min: 768px;
+
+$break-ipad-max: 1024px;
+
+@mixin respond-to($media) {
+		@if $media == iphone {			
+			@media only screen and (max-width: $break-iphone-max) { @content; }
+		}
+		
+		@else if $media == ipad {			
+			@media only screen and (min-device-width: $break-ipad-min) and (max-device-width: $break-ipad-max) { @content; }
+		}
+		
+		@else if $media == large-screen {			
+			@media only screen and (min-width: $break-ipad-max) { @content; }
+		}
+	
+}

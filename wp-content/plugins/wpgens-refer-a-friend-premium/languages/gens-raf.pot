@@ -1,0 +1,812 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Refer a Friend for WooCommerce PREMIUM\n"
+"POT-Creation-Date: 2017-07-19 00:32+0100\n"
+"PO-Revision-Date: 2017-07-19 00:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: gens-raf.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-gens-list-refs.php:53 public/class-my-account.php:136
+msgid "Status"
+msgstr ""
+
+#: admin/class-gens-list-refs.php:54
+msgid "RAF Order"
+msgstr ""
+
+#: admin/class-gens-list-refs.php:55
+msgid "Referred by:"
+msgstr ""
+
+#: admin/class-gens-list-refs.php:56
+msgid "Created"
+msgstr ""
+
+#: admin/class-gens-list-refs.php:57
+msgid "Order amount"
+msgstr ""
+
+#: admin/class-gens-list-refs.php:81
+msgid "No Referrals found yet."
+msgstr ""
+
+#: admin/class-gens-raf-admin.php:65
+msgid ""
+"Refer A Friend Plugin is enabled but not effective. It requires WooCommerce "
+"in order to work."
+msgstr ""
+
+#: admin/class-gens-raf-admin.php:77
+msgid "Refers Stats"
+msgstr ""
+
+#: admin/class-gens-raf-admin.php:77
+msgid "Refer a Friend Data"
+msgstr ""
+
+#: admin/class-gens-raf-admin.php:127
+msgid "Refer a friend Link"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:53
+msgid "Refer A Friend"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:70
+#: admin/class-gens-raf-woo-integration.php:131
+#: admin/class-gens-raf-woo-integration.php:171
+#: admin/class-gens-raf-woo-integration.php:287
+#: admin/class-gens-raf-woo-integration.php:330
+#: admin/class-gens-raf-woo-integration.php:402
+#: admin/class-gens-raf-woo-integration.php:481
+#: admin/class-gens-raf-woo-integration.php:518
+msgid "General"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:71
+#: admin/class-gens-raf-woo-integration.php:141
+msgid "Product Tab"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:72
+#: admin/class-gens-raf-woo-integration.php:181
+#: admin/class-gens-raf-woo-integration.php:204
+msgid "My Account Page"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:73
+msgid "Share Options"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:74
+msgid "Email"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:75
+msgid "How to use plugin"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:94
+msgid "Email Settings"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:96
+msgid ""
+"Setup the look of email that will be sent to the referral together with "
+"coupon."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:101
+#: admin/class-gens-raf-woo-integration.php:233
+msgid "Email Subject"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:103
+msgid ""
+"Enter the subject of email that will be sent when notifiying the user of "
+"their coupon code."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:104
+#: admin/class-gens-raf-woo-integration.php:119
+msgid "Hey there!"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:108
+msgid "Email Message"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:111
+msgid ""
+"Text that will appear in email that is sent to user once they get the code. "
+"Use {{code}} to add coupon code.HTML allowed."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:112
+msgid "You referred someone! Here is your coupone code reward: {{code}} ."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:116
+msgid "Buyer Email Subject"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:118
+msgid ""
+"Enter the subject of email that will be sent when notifiying the buyer of "
+"their coupon code."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:123
+msgid "Buyer Email Message"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:126
+msgid ""
+"Text that will appear in email that is sent to buyer once they get the code. "
+"Use {{code}} to add coupon code.HTML allowed."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:127
+msgid ""
+"You purchased through referral link and earned coupon! Here is your coupone "
+"code reward: {{code}} ."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:143
+msgid ""
+"Each product can have RAF Tab enabled that includes share buttons with some "
+"text. Update text here. If you want to add some content before or after raf "
+"tab content, use \"gens_tab_filter_before\" and \"gens_tab_filter_after\" "
+"filters."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:148
+#: admin/class-gens-raf-woo-integration.php:294
+msgid "Disable"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:150
+msgid "Disable tabs"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:151
+msgid "Check to disable. RAF Tab wont show."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:156
+#: admin/class-gens-raf-woo-integration.php:197
+msgid "Text Before"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:159
+msgid "Text that is shown above share icons. HTML allowed."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:163
+msgid "Guest text"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:166
+msgid "Text to show when user is not logged in."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:167
+msgid "Please register to get your referral link."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:183
+msgid "Add some text above share icons. HTML tags allowed."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:188
+msgid "My Account Page Share Link"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:191
+msgid ""
+"Page URL that is used for refer a friend link in my account page. Leave "
+"empty for home page."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:192
+msgid ""
+"Default share url that is shown in my account page is home url. Change it "
+"here to some other. Use full link like: http://mysite.com/some-page/"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:200
+msgid "Text that is shown above share icons."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:214
+msgid "Configure share options"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:220
+msgid "Twitter via (without @)"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:226
+msgid "Twitter/WhatsUp/Email Title"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:228
+msgid ""
+"Default Text that will appear as subject in Email and as title in Twitter "
+"and WhatsUp. User can change it themself."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:236
+msgid "Subject of an email that is sent when user shares his URL via email."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:240
+msgid "Email Body (use HTML)"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:243
+msgid ""
+"Body text of the email that is sent when user shares his referral url via "
+"email. Use {{code}} for referral link code.Check the look of the email by "
+"sending the email to yourself."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:247
+#: admin/class-gens-raf-woo-integration.php:277
+msgid "Plugins"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:257
+msgid "Small tutorial to help you get started"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:259
+#, php-format
+msgid ""
+"Thanks for supporting Refer a Friend plugin by purchasing premium version. "
+"<br/>\n"
+"\t\t\t\t\t\t\tThere are additional options that comes with premium version "
+"as well as fully styled shortcodes and user statistics. <br/><br/>\n"
+"\t\t\t\t\t\t\tYou can find new options under this \"Refer a Friend\" tab, "
+"while shortcodes to be used are as follow:<br/><br/>\n"
+"\t\t\t\t\t\t\t1. Simple Shortcode that shows just link and can be used "
+"anywhere: <strong>[WOO_GENS_RAF]</strong><br/>\n"
+"\t\t\t\t\t\t\t2. Advance Shortcode that comes with share links, like example "
+"on <a href=\"%s\" target=\"_blank\">this page</a>. To get that exact look, "
+"just center text via editor. Shortcode is:<br/> "
+"<strong>[WOO_GENS_RAF_ADVANCE guest_text=\"Text to show when user is not "
+"logged in\" share_text=\"Text showing above share icons\"]</strong><br/>\n"
+"\t\t\t\t\t\t\t3. Shortcode for Contact Form 7 plugin is <strong>[gens_raf]</"
+"strong>. User who uses contact form will have his referral URL shown in that "
+"shortcode. Place it in two places, first one before submit button inside "
+"form. Second one place in mail tab that will show in email sent to user.<br/"
+">\n"
+"\t\t\t\t\t\t\t<h3>SETUP GUIDE</h3>\n"
+"\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t<li>1. After installing plugin, go to Refer a friend "
+"settings (this page), and click on General tab inside Refer a friend tab. "
+"Then setup coupon options.</li>\n"
+"\t\t\t\t\t\t\t\t<li>2. Click on Product Tab option and populate tab text, or "
+"turn it off. You can use \"gens_tab_filter_before\" and "
+"\"gens_tab_filter_after\" filters to easily add text before and after RAF "
+"tab text/share icons.</li>\n"
+"\t\t\t\t\t\t\t\t<li>3. Click on email tab and populate text that will be "
+"sent to user after he gets coupon.</li>\n"
+"\t\t\t\t\t\t\t\t<li>Thats it! Now every user will have referral link in "
+"their account page, or in page where you placed shortcode. After someone "
+"makes a purchase through their referral link, and after order is marked as "
+"complete. They will recieve coupon in their inbox.</li>\n"
+"\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:296
+msgid "Disable Coupons"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:297
+msgid "Check to disable. Referral links wont work anymore."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:302
+msgid "Existing users"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:304
+msgid ""
+"By default, if user sends referral link to other user that is registered on "
+"your site and has at least one order, referral link will not work for them. "
+"If you check this, then user can get reward for sharing referral link with "
+"both new and existing shop members."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:305
+msgid ""
+"If unchecked, it means that users can get coupons when referring only new "
+"shop members and not existing ones."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:309
+msgid "Cookie Time"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:311
+msgid ""
+"As long as cookie is saved, user will recieve coupon after referral purchase "
+"product."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:312
+msgid "How long to keep cookies before it expires.(In days)"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:316
+msgid "Minimum referral order"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:318
+msgid ""
+"Set how much someone needs to purchase in order to generate coupon for "
+"referral"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:322
+#: admin/class-gens-raf-woo-integration.php:323
+msgid "Single Purchase"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:325
+msgid ""
+"This means that coupon is sent only the first time referral makes a "
+"purchase, as referral cookie is deleted after it."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:326
+msgid "If checked, cookie will be deleted after customer makes a purchase."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:336
+msgid "Referrer Coupon Settings"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:338
+msgid "Coupon for a user that has referred a person."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:343
+#: admin/class-gens-raf-woo-integration.php:423
+msgid "Coupon Type"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:347
+#: admin/class-gens-raf-woo-integration.php:427
+msgid "Cart Discount"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:348
+#: admin/class-gens-raf-woo-integration.php:428
+msgid "Cart % Discount"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:349
+#: admin/class-gens-raf-woo-integration.php:429
+msgid "Product Discount"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:354
+#: admin/class-gens-raf-woo-integration.php:434
+msgid "Coupon Amount"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:357
+#: admin/class-gens-raf-woo-integration.php:436
+msgid ""
+" Entered without the currency unit or a percent sign as these will be added "
+"automatically, e.g., ’10’ for 10£ or 10%."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:358
+#: admin/class-gens-raf-woo-integration.php:437
+msgid ""
+"Fixed value or percentage off depending on the discount type you choose."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:362
+#: admin/class-gens-raf-woo-integration.php:441
+msgid "Products"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:364
+#: admin/class-gens-raf-woo-integration.php:443
+msgid ""
+" Products which need to be in the cart to use this coupon or, for \"Product "
+"Discounts\", which products are discounted. "
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:365
+#: admin/class-gens-raf-woo-integration.php:444
+msgid "Write product ID-s, separated by comma, e.g. 152,321,25"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:369
+#: admin/class-gens-raf-woo-integration.php:448
+msgid "Product Categories"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:371
+#: admin/class-gens-raf-woo-integration.php:450
+msgid ""
+"A product must be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will be discounted."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:372
+#: admin/class-gens-raf-woo-integration.php:379
+#: admin/class-gens-raf-woo-integration.php:451
+#: admin/class-gens-raf-woo-integration.php:458
+msgid "Write category ID-s, separated by comma, e.g. 3,5,7"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:376
+#: admin/class-gens-raf-woo-integration.php:455
+msgid "Exclude Categories"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:378
+#: admin/class-gens-raf-woo-integration.php:457
+msgid ""
+"Product must not be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will not be discounted. "
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:383
+#: admin/class-gens-raf-woo-integration.php:462
+msgid "Coupon Duration"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:385
+#: admin/class-gens-raf-woo-integration.php:464
+msgid "How many days coupon should last, just type number, like: 30"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:389
+#: admin/class-gens-raf-woo-integration.php:468
+msgid "Minimum Order"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:391
+#: admin/class-gens-raf-woo-integration.php:470
+msgid "Define minimum order subtotal in order for coupon to work."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:395
+#: admin/class-gens-raf-woo-integration.php:474
+msgid "Individual Use"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:397
+#: admin/class-gens-raf-woo-integration.php:476
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:408
+msgid "Friend/Buyer Coupon Settings"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:410
+msgid ""
+"Give coupon to a user being referred as well. AFTER their first purchase. "
+"(Scroll down for first purchase.)"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:415
+#: admin/class-gens-raf-woo-integration.php:496
+msgid "Enable"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:417
+msgid "Enable Coupons for friends"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:418
+msgid "Check to enable. Coupon code will be sent to their email."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:487
+msgid "Referral Coupons applied on first purchase"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:489
+msgid ""
+"This option will allow you to automatically apply coupon to a person being "
+"referred to your site via someones referral link, which means on their first "
+"purchase.<br/>\n"
+"\t\t\tFirst go to WooCommerce coupons page and manually create a coupon, "
+"choose options you want and make sure it does not have limit or email "
+"restriction. Then put coupon code in the textbox below.<br/>\n"
+"\t\t\tOnce you activate this option, deactivate the above one, or you will "
+"be sending coupons to referrals on both first and second purchase."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:498
+msgid "Enable Coupons for referrals as well."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:499
+msgid "Check to enable. Coupon code will be automatically applied in cart."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:504
+msgid "Coupon CODE"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:506
+msgid ""
+"Read the description above. Then paste coupon code that will be applied to "
+"referrals on first purchase."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:510
+msgid "Cart Message"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:513
+msgid ""
+"This is the message that will be shown at the cart page when coupon is "
+"automatically applied."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:514
+msgid "Your purchase through referral link earned you a coupon!"
+msgstr ""
+
+#: admin/edd_licence/EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: admin/edd_licence/EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: admin/edd_licence/EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: admin/edd_licence/EDD_SL_Plugin_Updater.php:396
+msgid "Error"
+msgstr ""
+
+#: admin/edd_licence/class.wpgens-raf-licence.php:70
+#: admin/edd_licence/class.wpgens-raf-licence.php:117
+#: admin/edd_licence/class.wpgens-raf-licence.php:172
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: admin/edd_licence/class.wpgens-raf-licence.php:84
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: admin/edd_licence/class.wpgens-raf-licence.php:91
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/edd_licence/class.wpgens-raf-licence.php:96
+msgid "Invalid license."
+msgstr ""
+
+#: admin/edd_licence/class.wpgens-raf-licence.php:102
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/edd_licence/class.wpgens-raf-licence.php:107
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: admin/edd_licence/class.wpgens-raf-licence.php:112
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: admin/view/gens-raf-stats-display.php:23
+msgid "Orders made through referral link:"
+msgstr ""
+
+#: admin/view/gens-raf-stats-display.php:44
+msgid "Number of referrals per user:"
+msgstr ""
+
+#: admin/view/gens-raf-stats-display.php:61
+msgid "Licence Key:"
+msgstr ""
+
+#: admin/view/gens-raf-stats-display.php:68
+msgid ""
+"Enter your valid license key to receive automatic updates, save and then "
+"click on activate license."
+msgstr ""
+
+#: admin/view/gens-raf-stats-display.php:73
+msgid "Licence is active."
+msgstr ""
+
+#: admin/view/gens-raf-stats-display.php:76
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/view/gens-raf-stats-display.php:79
+msgid "Activate License"
+msgstr ""
+
+#: public/class-gens-raf-public.php:429
+msgid "Referral details:"
+msgstr ""
+
+#: public/class-gens-raf-public.php:430
+msgid "Referred by user:"
+msgstr ""
+
+#: public/class-gens-raf-public.php:444
+msgid "Refer a friend - Create missing referral links."
+msgstr ""
+
+#: public/class-gens-raf-public.php:445
+msgid "Create referrals"
+msgstr ""
+
+#: public/class-gens-raf-public.php:446
+msgid ""
+"This tool will add missing referrals to your site prior to users clicking on "
+"my account page. Useful if you want to inform users about their referral "
+"link, before it was autogenerated by them visiting page with referral link. "
+msgstr ""
+
+#: public/class-gens-raf-public.php:450
+msgid "Refer a friend - Reset referral data."
+msgstr ""
+
+#: public/class-gens-raf-public.php:451
+msgid "Reset referrals"
+msgstr ""
+
+#: public/class-gens-raf-public.php:452
+msgid ""
+"This tool will remove all referral data from orders and will reset number of "
+"referrals for each user. Use with caution! Coupons will be kept by users, "
+"but if some referrals are pending, they wont award coupons after this. "
+"Backup your store before clicking!"
+msgstr ""
+
+#: public/class-gens-raf-public.php:492
+msgid " missing referral codes have been created"
+msgstr ""
+
+#: public/class-gens-raf-public.php:557
+msgid "Your Referral URL:"
+msgstr ""
+
+#: public/class-gens-raf-public.php:562
+msgid "Share via Facebook"
+msgstr ""
+
+#: public/class-gens-raf-public.php:563
+msgid "Share via Twitter"
+msgstr ""
+
+#: public/class-gens-raf-public.php:564
+msgid "Share via Google+"
+msgstr ""
+
+#: public/class-gens-raf-public.php:565
+msgid "Share via Whatsapp"
+msgstr ""
+
+#: public/class-gens-raf-public.php:568
+msgid "or share via email"
+msgstr ""
+
+#: public/class-gens-raf-public.php:571 public/class-gens-raf-public.php:572
+msgid "Enter email"
+msgstr ""
+
+#: public/class-gens-raf-public.php:574
+msgid "Send Emails"
+msgstr ""
+
+#: public/class-gens-raf-public.php:639
+msgid "Coupon Applied!"
+msgstr ""
+
+#: public/class-my-account.php:17
+msgid "Refer a Friend"
+msgstr ""
+
+#: public/class-my-account.php:58
+msgid "Unused Refer a Friend Coupons"
+msgstr ""
+
+#: public/class-my-account.php:61
+msgid "Coupon code"
+msgstr ""
+
+#: public/class-my-account.php:62
+msgid "Coupon discount"
+msgstr ""
+
+#: public/class-my-account.php:63
+msgid "Expiry date"
+msgstr ""
+
+#: public/class-my-account.php:72
+msgid "No expiry date"
+msgstr ""
+
+#: public/class-my-account.php:127
+msgid "Track your invites"
+msgstr ""
+
+#: public/class-my-account.php:129
+msgid "Earned Coupons:"
+msgstr ""
+
+#: public/class-my-account.php:130
+msgid "Potential Coupons:"
+msgstr ""
+
+#: public/class-my-account.php:134
+msgid "Friend"
+msgstr ""
+
+#: public/class-my-account.php:135
+msgid "Referred On"
+msgstr ""
+
+#: public/class-my-account.php:153
+msgid "Referrals"
+msgstr ""
+
+#: public/class-shortcodes.php:18
+msgid "Refer to a friend"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Refer a Friend for WooCommerce PREMIUM"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpgens.com/downloads/refer-a-friend-for-woocommerce-premium/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"PREMIUM Refer a friend by WPGENS. Go to WooCommerce -> Settings -> Refer a "
+"friend tab to set it up."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPGens"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpgens.com"
+msgstr ""

@@ -1,0 +1,1021 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Monarch Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-05 21:17+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ElegantThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _x;_e;__;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../monarch.php:36
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr ""
+
+#: ../monarch.php:229 ../monarch.php:644
+msgid "Monarch Settings"
+msgstr ""
+
+#: ../monarch.php:252
+msgid "Settings"
+msgstr ""
+
+#: ../monarch.php:290
+msgid "Select networks to add"
+msgstr ""
+
+#: ../monarch.php:316 ../monarch.php:1366 ../includes/monarch_options.php:107
+#: ../includes/monarch_options.php:142
+msgid "Client ID"
+msgstr ""
+
+#: ../monarch.php:317 ../monarch.php:1364 ../includes/monarch_options.php:242
+msgid "Access Token"
+msgstr ""
+
+#: ../monarch.php:323 ../monarch.php:1365
+msgid "User ID"
+msgstr ""
+
+#: ../monarch.php:324 ../monarch.php:326 ../monarch.php:1368
+#: ../monarch.php:1384
+msgid "Name"
+msgstr ""
+
+#: ../monarch.php:346
+msgid "Apply"
+msgstr ""
+
+#: ../monarch.php:381
+msgid "Ok"
+msgstr ""
+
+#: ../monarch.php:459 ../monarch.php:661
+msgid "Likes: "
+msgstr ""
+
+#: ../monarch.php:460 ../monarch.php:662
+msgid "Shares: "
+msgstr ""
+
+#: ../monarch.php:645
+msgid "Monarch Sharing Stats"
+msgstr ""
+
+#: ../monarch.php:699
+msgid "Enable Monarch Settings Override"
+msgstr ""
+
+#: ../monarch.php:704
+msgid ""
+"Check or Uncheck any of the below items to override their appearance on this "
+"page"
+msgstr ""
+
+#: ../monarch.php:788
+msgid "All Time Stats"
+msgstr ""
+
+#: ../monarch.php:789
+msgid "Past Week"
+msgstr ""
+
+#: ../monarch.php:791 ../monarch.php:1571
+msgid "Total Shares"
+msgstr ""
+
+#: ../monarch.php:793 ../monarch.php:798 ../monarch.php:1573
+#: ../monarch.php:2242 ../monarch.php:2314
+msgid "Total Likes"
+msgstr ""
+
+#: ../monarch.php:1041
+msgid "Please select social networks in \"Social Sharing / Networks\" settings"
+msgstr ""
+
+#: ../monarch.php:1327
+msgid "Add Networks"
+msgstr ""
+
+#: ../monarch.php:1467
+msgid "Note:"
+msgstr ""
+
+#: ../monarch.php:1494
+msgid "Re-Authorize"
+msgstr ""
+
+#: ../monarch.php:1511
+msgid "Save Changes"
+msgstr ""
+
+#: ../monarch.php:1529
+msgid ""
+"You can either export your Monarch Settings or import settings from another "
+"install of Monarch below."
+msgstr ""
+
+#: ../monarch.php:1532
+msgid "Export Monarch Settings"
+msgstr ""
+
+#: ../monarch.php:1533
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+
+#: ../monarch.php:1538
+msgid "Export"
+msgstr ""
+
+#: ../monarch.php:1544
+msgid "Import Monarch Settings"
+msgstr ""
+
+#: ../monarch.php:1546
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+
+#: ../monarch.php:1550
+msgid "Import"
+msgstr ""
+
+#: ../monarch.php:1575
+msgid "Follow Activity"
+msgstr ""
+
+#: ../monarch.php:1635
+msgid "Client ID is not set"
+msgstr ""
+
+#: ../monarch.php:1639
+msgid "Client Secret is not set"
+msgstr ""
+
+#: ../monarch.php:1643
+msgid "Network Name is not set"
+msgstr ""
+
+#: ../monarch.php:1674
+msgid "Successfully authorized"
+msgstr ""
+
+#: ../monarch.php:1896
+msgid "Please select .json file for import"
+msgstr ""
+
+#: ../monarch.php:1901
+msgid "Please provide valid .json file"
+msgstr ""
+
+#: ../monarch.php:1913
+msgid "Options imported successfully."
+msgstr ""
+
+#: ../monarch.php:2065 ../monarch.php:4148 ../includes/monarch_options.php:656
+#: ../includes/monarch_options.php:663
+msgid "Like"
+msgstr ""
+
+#: ../monarch.php:2065 ../monarch.php:2328 ../monarch.php:4148
+msgid "Likes"
+msgstr ""
+
+#: ../monarch.php:2066
+msgid "Share"
+msgstr ""
+
+#: ../monarch.php:2066 ../monarch.php:2143 ../monarch.php:2328
+#: ../monarch.php:3309 ../monarch.php:3420 ../monarch.php:3460
+#: ../monarch.php:3617 ../monarch.php:3711
+msgid "Shares"
+msgstr ""
+
+#: ../monarch.php:2141
+msgid "Highest Performing Posts"
+msgstr ""
+
+#: ../monarch.php:2142
+msgid "Post Title"
+msgstr ""
+
+#: ../monarch.php:2153
+msgid "Homepage"
+msgstr ""
+
+#: ../monarch.php:2230
+msgid "Past"
+msgstr ""
+
+#: ../monarch.php:2233
+msgid "Days"
+msgstr ""
+
+#: ../monarch.php:2234
+msgid "Month"
+msgstr ""
+
+#: ../monarch.php:2238 ../monarch.php:2310
+msgid " Total Shares and "
+msgstr ""
+
+#: ../monarch.php:2307
+msgid "All time stats"
+msgstr ""
+
+#: ../monarch.php:3064
+msgid "Pin It on Pinterest"
+msgstr ""
+
+#: ../monarch.php:3484 ../includes/monarch_options.php:74
+#: ../includes/monarch_options.php:75
+msgid "Share This"
+msgstr ""
+
+#: ../monarch.php:4041
+msgid "Follows"
+msgstr ""
+
+#: ../monarch.php:4150
+msgid "Follower"
+msgstr ""
+
+#: ../monarch.php:4150
+msgid "Followers"
+msgstr ""
+
+#: ../monarch.php:4222
+msgid "No images available for sharing on this page"
+msgstr ""
+
+#: ../includes/monarch-widget.php:10
+msgid ""
+"Monarch plugin widget, please configure all the settings in Monarch control "
+"panel"
+msgstr ""
+
+#: ../includes/monarch-widget.php:11
+msgid "Monarch Follow"
+msgstr ""
+
+#: ../includes/monarch-widget.php:19 ../includes/monarch-widget.php:45
+msgid "Follow Us"
+msgstr ""
+
+#: ../includes/monarch-widget.php:56 ../includes/monarch_options.php:68
+msgid "Title"
+msgstr ""
+
+#: ../includes/monarch_options.php:9
+msgid "Social Sharing"
+msgstr ""
+
+#: ../includes/monarch_options.php:11
+msgid "Locations"
+msgstr ""
+
+#: ../includes/monarch_options.php:12 ../includes/monarch_options.php:23
+msgid "Networks"
+msgstr ""
+
+#: ../includes/monarch_options.php:13 ../includes/monarch_options.php:670
+msgid "Sidebar"
+msgstr ""
+
+#: ../includes/monarch_options.php:14 ../includes/monarch_options.php:670
+msgid "Inline"
+msgstr ""
+
+#: ../includes/monarch_options.php:15 ../includes/monarch_options.php:670
+msgid "Pop Up"
+msgstr ""
+
+#: ../includes/monarch_options.php:16 ../includes/monarch_options.php:670
+msgid "Fly In"
+msgstr ""
+
+#: ../includes/monarch_options.php:17
+msgid "On Media"
+msgstr ""
+
+#: ../includes/monarch_options.php:21
+msgid "Social Follow"
+msgstr ""
+
+#: ../includes/monarch_options.php:24
+msgid "Widget"
+msgstr ""
+
+#: ../includes/monarch_options.php:25
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/monarch_options.php:29
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/monarch_options.php:31
+msgid "Main"
+msgstr ""
+
+#: ../includes/monarch_options.php:36
+msgid "Import & Export"
+msgstr ""
+
+#: ../includes/monarch_options.php:37 ../includes/monarch_options.php:750
+msgid "Social Sharing Stats"
+msgstr ""
+
+#: ../includes/monarch_options.php:44 ../includes/monarch_options.php:52
+msgid "Choose icon style"
+msgstr ""
+
+#: ../includes/monarch_options.php:59
+msgid "Choose icon shape"
+msgstr ""
+
+#: ../includes/monarch_options.php:81
+msgid "Message"
+msgstr ""
+
+#: ../includes/monarch_options.php:87
+msgid "Insert Text"
+msgstr ""
+
+#: ../includes/monarch_options.php:88
+msgid "Share this post with your friends!"
+msgstr ""
+
+#: ../includes/monarch_options.php:94
+msgid "API Settings"
+msgstr ""
+
+#: ../includes/monarch_options.php:101 ../includes/monarch_options.php:663
+msgid "Vimeo"
+msgstr ""
+
+#: ../includes/monarch_options.php:113 ../includes/monarch_options.php:128
+#: ../includes/monarch_options.php:148 ../includes/monarch_options.php:163
+#: ../includes/monarch_options.php:183 ../includes/monarch_options.php:198
+#: ../includes/monarch_options.php:218 ../includes/monarch_options.php:233
+#: ../includes/monarch_options.php:248 ../includes/monarch_options.php:263
+msgid "Click here for more information"
+msgstr ""
+
+#: ../includes/monarch_options.php:122 ../includes/monarch_options.php:157
+msgid "Client Secret"
+msgstr ""
+
+#: ../includes/monarch_options.php:136 ../includes/monarch_options.php:663
+msgid "Instagram"
+msgstr ""
+
+#: ../includes/monarch_options.php:171 ../includes/monarch_options.php:656
+#: ../includes/monarch_options.php:663
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/monarch_options.php:177
+msgid "API Key"
+msgstr ""
+
+#: ../includes/monarch_options.php:192
+msgid "Secret Key"
+msgstr ""
+
+#: ../includes/monarch_options.php:206 ../includes/monarch_options.php:656
+#: ../includes/monarch_options.php:663
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/monarch_options.php:212
+msgid "Consumer Key"
+msgstr ""
+
+#: ../includes/monarch_options.php:227
+msgid "Consumer Secret"
+msgstr ""
+
+#: ../includes/monarch_options.php:257
+msgid "Access Token Secret"
+msgstr ""
+
+#: ../includes/monarch_options.php:270 ../includes/monarch_options.php:277
+#: ../includes/monarch_options.php:284 ../includes/monarch_options.php:291
+msgid "Authorize"
+msgstr ""
+
+#: ../includes/monarch_options.php:300
+msgid "Display Settings"
+msgstr ""
+
+#: ../includes/monarch_options.php:304
+msgid "Icon Placement"
+msgstr ""
+
+#: ../includes/monarch_options.php:306 ../includes/monarch_options.php:327
+msgid "Centered"
+msgstr ""
+
+#: ../includes/monarch_options.php:306 ../includes/monarch_options.php:327
+#: ../includes/monarch_options.php:357
+msgid "Left"
+msgstr ""
+
+#: ../includes/monarch_options.php:311 ../includes/monarch_options.php:318
+msgid "Choose Location"
+msgstr ""
+
+#: ../includes/monarch_options.php:313
+msgid "Bottom Right"
+msgstr ""
+
+#: ../includes/monarch_options.php:313
+msgid "Bottom Left"
+msgstr ""
+
+#: ../includes/monarch_options.php:320
+msgid "Above Content"
+msgstr ""
+
+#: ../includes/monarch_options.php:320
+msgid "Below Content"
+msgstr ""
+
+#: ../includes/monarch_options.php:320
+msgid "Above + Below"
+msgstr ""
+
+#: ../includes/monarch_options.php:325
+msgid "Icon Alignment"
+msgstr ""
+
+#: ../includes/monarch_options.php:332 ../includes/monarch_options.php:346
+msgid "Number of Columns"
+msgstr ""
+
+#: ../includes/monarch_options.php:334 ../includes/monarch_options.php:341
+#: ../includes/monarch_options.php:348
+msgid "Auto Width"
+msgstr ""
+
+#: ../includes/monarch_options.php:339
+msgid "Choose Number of Columns"
+msgstr ""
+
+#: ../includes/monarch_options.php:355
+msgid "Sidebar Orientation"
+msgstr ""
+
+#: ../includes/monarch_options.php:357
+msgid "Right"
+msgstr ""
+
+#: ../includes/monarch_options.php:362
+msgid "Intro Animation"
+msgstr ""
+
+#: ../includes/monarch_options.php:364 ../includes/monarch_options.php:365
+#: ../includes/monarch_options.php:366
+msgid "No Animation"
+msgstr ""
+
+#: ../includes/monarch_options.php:364 ../includes/monarch_options.php:365
+#: ../includes/monarch_options.php:366
+msgid "Fade In"
+msgstr ""
+
+#: ../includes/monarch_options.php:364 ../includes/monarch_options.php:365
+#: ../includes/monarch_options.php:366
+msgid "Slide Right"
+msgstr ""
+
+#: ../includes/monarch_options.php:364 ../includes/monarch_options.php:365
+#: ../includes/monarch_options.php:366
+msgid "Slide Up"
+msgstr ""
+
+#: ../includes/monarch_options.php:364 ../includes/monarch_options.php:365
+#: ../includes/monarch_options.php:366
+msgid "Slide Down"
+msgstr ""
+
+#: ../includes/monarch_options.php:365 ../includes/monarch_options.php:366
+msgid "Light Speed"
+msgstr ""
+
+#: ../includes/monarch_options.php:365 ../includes/monarch_options.php:366
+msgid "Zoom In"
+msgstr ""
+
+#: ../includes/monarch_options.php:365 ../includes/monarch_options.php:366
+msgid "Flip"
+msgstr ""
+
+#: ../includes/monarch_options.php:365 ../includes/monarch_options.php:366
+msgid "Bounce"
+msgstr ""
+
+#: ../includes/monarch_options.php:365 ../includes/monarch_options.php:366
+msgid "Swing"
+msgstr ""
+
+#: ../includes/monarch_options.php:365 ../includes/monarch_options.php:366
+msgid "Tada!"
+msgstr ""
+
+#: ../includes/monarch_options.php:367
+msgid "Define the animation that is used, when you load the page."
+msgstr ""
+
+#: ../includes/monarch_options.php:374
+msgid "Trigger After Time Delay"
+msgstr ""
+
+#: ../includes/monarch_options.php:383
+msgid "Delay ( in seconds )"
+msgstr ""
+
+#: ../includes/monarch_options.php:385
+msgid ""
+"Define how many seconds you want to wait before the pop up appears on the "
+"screen."
+msgstr ""
+
+#: ../includes/monarch_options.php:391
+msgid "Trigger After Inactivity"
+msgstr ""
+
+#: ../includes/monarch_options.php:399
+msgid "Idle Timeout ( in seconds )"
+msgstr ""
+
+#: ../includes/monarch_options.php:401
+msgid ""
+"Define how many seconds user should be inactive before the pop up appears on "
+"screen."
+msgstr ""
+
+#: ../includes/monarch_options.php:407
+msgid "Trigger At The Bottom Of Post"
+msgstr ""
+
+#: ../includes/monarch_options.php:414
+msgid "Trigger After Commenting"
+msgstr ""
+
+#: ../includes/monarch_options.php:419
+msgid "Trigger After Scrolling"
+msgstr ""
+
+#: ../includes/monarch_options.php:427
+msgid "Percentage Down The Page"
+msgstr ""
+
+#: ../includes/monarch_options.php:429
+#, php-format
+msgid ""
+"Define the % of the page to be scrolled before the pop up appears on the "
+"screen."
+msgstr ""
+
+#: ../includes/monarch_options.php:435
+msgid "Trigger After Purchasing"
+msgstr ""
+
+#: ../includes/monarch_options.php:437
+msgid "Display on \"Thank you\" page of WooCommerce after purchase"
+msgstr ""
+
+#: ../includes/monarch_options.php:442
+msgid "Display Share Counts"
+msgstr ""
+
+#: ../includes/monarch_options.php:443 ../includes/monarch_options.php:444
+msgid "Display Follower Counts"
+msgstr ""
+
+#: ../includes/monarch_options.php:457
+msgid "Minimum Count Display"
+msgstr ""
+
+#: ../includes/monarch_options.php:459
+msgid ""
+"Threshold that must be reached for each network before a number is displayed."
+msgstr ""
+
+#: ../includes/monarch_options.php:465
+msgid "Display Total Shares"
+msgstr ""
+
+#: ../includes/monarch_options.php:466 ../includes/monarch_options.php:467
+msgid "Display Total Followers"
+msgstr ""
+
+#: ../includes/monarch_options.php:477
+msgid "Total Shares Text Color"
+msgstr ""
+
+#: ../includes/monarch_options.php:479 ../includes/monarch_options.php:488
+msgid "Dark"
+msgstr ""
+
+#: ../includes/monarch_options.php:479 ../includes/monarch_options.php:488
+msgid "Light"
+msgstr ""
+
+#: ../includes/monarch_options.php:480
+msgid ""
+"Choose what color the Total Shares Text should be, depending on the "
+"background color of your website."
+msgstr ""
+
+#: ../includes/monarch_options.php:486
+msgid "Outer Text Color"
+msgstr ""
+
+#: ../includes/monarch_options.php:495
+msgid "Display Network Names"
+msgstr ""
+
+#: ../includes/monarch_options.php:502
+msgid "Display 'All Networks' Button"
+msgstr ""
+
+#: ../includes/monarch_options.php:509
+msgid "Add Icon Spacing"
+msgstr ""
+
+#: ../includes/monarch_options.php:515
+msgid "Remove Icon Spacing"
+msgstr ""
+
+#: ../includes/monarch_options.php:521
+msgid "Hide On Mobile Devices"
+msgstr ""
+
+#: ../includes/monarch_options.php:527
+msgid "Display Once Per Session"
+msgstr ""
+
+#: ../includes/monarch_options.php:535
+msgid "Session Duration (in days)"
+msgstr ""
+
+#: ../includes/monarch_options.php:537
+msgid ""
+"Define the length of time (in days) that a session lasts for. For example, "
+"if you input 2 a user will only see a popup on your site every two days."
+msgstr ""
+
+#: ../includes/monarch_options.php:543
+msgid "Get counts via API"
+msgstr ""
+
+#: ../includes/monarch_options.php:545
+msgid "if disabled, then manually specified values will be displayed"
+msgstr ""
+
+#: ../includes/monarch_options.php:551
+msgid "Open link in new window"
+msgstr ""
+
+#: ../includes/monarch_options.php:553
+msgid ""
+"Disable this option if you do not want to open Follow links in new window"
+msgstr ""
+
+#: ../includes/monarch_options.php:564
+msgid "Frequency of count updates (in hours)"
+msgstr ""
+
+#: ../includes/monarch_options.php:566
+msgid ""
+"Adjust how often the plugin grabs and caches the counts from social networks "
+"that support APIs. Set to 0 if you don't want to use cache."
+msgstr ""
+
+#: ../includes/monarch_options.php:571
+msgid "Reset WordPress loops"
+msgstr ""
+
+#: ../includes/monarch_options.php:573
+msgid "Enable the option if the plugin does not detect permalinks properly"
+msgstr ""
+
+#: ../includes/monarch_options.php:580
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/monarch_options.php:586
+msgid "insert your custom CSS code"
+msgstr ""
+
+#: ../includes/monarch_options.php:593
+msgid "Color Settings"
+msgstr ""
+
+#: ../includes/monarch_options.php:594
+msgid ""
+"If Background or Hover Background is not defined below, the default network "
+"colors will be used for that element."
+msgstr ""
+
+#: ../includes/monarch_options.php:598
+msgid "Use Custom Colors"
+msgstr ""
+
+#: ../includes/monarch_options.php:604
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/monarch_options.php:606 ../includes/monarch_options.php:613
+#: ../includes/monarch_options.php:620 ../includes/monarch_options.php:627
+msgid "Hex Value"
+msgstr ""
+
+#: ../includes/monarch_options.php:611
+msgid "Hover Background Color"
+msgstr ""
+
+#: ../includes/monarch_options.php:618
+msgid "Icon Color"
+msgstr ""
+
+#: ../includes/monarch_options.php:625
+msgid "Hover Icon Color"
+msgstr ""
+
+#: ../includes/monarch_options.php:634 ../includes/monarch_options.php:638
+#: ../includes/monarch_options.php:646
+msgid "Post Type Settings"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Google+"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Buffer"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Digg"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Evernote"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "FriendFeed"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Hacker News"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "LiveJournal"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Newsvine"
+msgstr ""
+
+#: ../includes/monarch_options.php:656
+msgid "AOL"
+msgstr ""
+
+#: ../includes/monarch_options.php:656
+msgid "Gmail"
+msgstr ""
+
+#: ../includes/monarch_options.php:656
+msgid "Print Friendly"
+msgstr ""
+
+#: ../includes/monarch_options.php:656
+msgid "Yahoo Mail"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Amazon"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Delicious"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "reddit"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "VKontakte"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Myspace"
+msgstr ""
+
+#: ../includes/monarch_options.php:656
+msgid "Blogger"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../includes/monarch_options.php:656 ../includes/monarch_options.php:663
+msgid "Tumblr"
+msgstr ""
+
+#: ../includes/monarch_options.php:657
+msgid "username"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "RSS"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Behance"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "AWeber"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "BlinkList"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "GitHub"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "MailChimp"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Outlook"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "SoundCloud"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Baidu"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Box"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "YouTube"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Picasa"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Spotify"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Yahoo"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "deviantART"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Dribbble"
+msgstr ""
+
+#: ../includes/monarch_options.php:663
+msgid "Flickr"
+msgstr ""
+
+#: ../includes/monarch_options.php:670
+msgid "Media"
+msgstr ""
+
+#: ../includes/monarch_options.php:675
+msgid "Generate Shortcode"
+msgstr ""
+
+#: ../includes/monarch_options.php:677
+msgid "Click the button above to generate your shortcode here"
+msgstr ""
+
+#: ../includes/monarch_options.php:689
+msgid "Manage Locations"
+msgstr ""
+
+#: ../includes/monarch_options.php:690
+msgid "You can select any combination of the five placements below."
+msgstr ""
+
+#: ../includes/monarch_options.php:694
+msgid "Manage Networks"
+msgstr ""
+
+#: ../includes/monarch_options.php:695
+msgid ""
+"Add and rearrange any combination of social networks below. You can define "
+"the Network Label and Username to the right of each."
+msgstr ""
+
+#: ../includes/monarch_options.php:699
+msgid "Configure sidebar share icons"
+msgstr ""
+
+#: ../includes/monarch_options.php:703
+msgid "Configure inline share icons"
+msgstr ""
+
+#: ../includes/monarch_options.php:707
+msgid "Configure social sharing pop up"
+msgstr ""
+
+#: ../includes/monarch_options.php:711
+msgid "Configure social sharing flyin"
+msgstr ""
+
+#: ../includes/monarch_options.php:715
+msgid "Configure media sharing icons"
+msgstr ""
+
+#: ../includes/monarch_options.php:716
+msgid "Media sharing is only applied to blog post content."
+msgstr ""
+
+#: ../includes/monarch_options.php:720
+msgid "Configure social follow widget"
+msgstr ""
+
+#: ../includes/monarch_options.php:721
+msgid ""
+"Any Monarch widget added to a widget area will use the following settings."
+msgstr ""
+
+#: ../includes/monarch_options.php:725
+msgid "Configure social follow shortcode"
+msgstr ""
+
+#: ../includes/monarch_options.php:726
+msgid "Define settings and generate a unique shortcode below"
+msgstr ""
+
+#: ../includes/monarch_options.php:730
+msgid "Configure general settings"
+msgstr ""
+
+#: ../includes/monarch_options.php:734
+msgid ""
+"Selected locations will use the display settings defined from the menu on "
+"the left."
+msgstr ""
+
+#: ../includes/monarch_options.php:738
+msgid ""
+"Selected networks apply to all selected locations in \"Locations\" Settings."
+msgstr ""
+
+#: ../includes/monarch_options.php:742
+msgid ""
+"Selected networks apply to all widgets and shortcodes defined in the menu on "
+"the left."
+msgstr ""
+
+#: ../includes/monarch_options.php:746
+msgid "Import/Export"
+msgstr ""

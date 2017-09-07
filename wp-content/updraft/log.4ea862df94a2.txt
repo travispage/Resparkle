@@ -1,0 +1,487 @@
+0000.015 (0) Opened log file at time: Mon, 12 Jun 2017 08:20:25 +0000 on http://resparkle.com.au
+0000.018 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.6.6 PHP: 5.5.38 (cgi-fcgi, Linux web109.webhostsg.com 2.6.32-673.26.1.lve1.4.18.el6.x86_64 #1 SMP Fri Oct 21 11:58:14 EDT 2016 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.4M | 19.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.020 (0) Free space on disk containing Updraft's temporary directory: 213438.3 MB
+0000.026 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.029 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.081 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1497169653, seconds_ago=85972)
+0000.084 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2017-06-12 08:20:25
+0000.087 (0) Semaphore (fd, wp_options) reset to 1
+0000.088 (0) Set semaphore last lock (fd) time to 2017-06-12 08:20:25
+0000.090 (0) Semaphore lock (fd) complete
+0000.100 (0) Backup run: resumption=0, nonce=4ea862df94a2, begun at=1497255625 (0s ago), job type=backup
+0000.107 (0) Scheduling a resumption (1) after 300 seconds (1497255925) in case this run gets aborted
+0000.132 (0) Checking if we have a zip executable available
+0000.136 (0) Creation of backups of directories: beginning
+0000.145 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.155 (0) Total entities for the zip file: 1440 directories, 8257 files (0 skipped as non-modified), 110.6 MB
+0001.203 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.215 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.228 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.243 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.255 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.269 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 8257 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.313 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 600 files added (on-disk size: 1544.6 KB)
+0003.321 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 700 files added (on-disk size: 1544.6 KB)
+0003.328 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 800 files added (on-disk size: 1544.6 KB)
+0003.336 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 900 files added (on-disk size: 1544.6 KB)
+0003.348 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1000 files added (on-disk size: 1544.6 KB)
+0003.351 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.1 MB, 8257 files batched, 501 (1002) added so far); re-opening (prior size: 1544.6 KB)
+0005.552 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1100 files added (on-disk size: 5611.7 KB)
+0006.090 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1200 files added (on-disk size: 5611.7 KB)
+0006.097 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1300 files added (on-disk size: 5611.7 KB)
+0006.103 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1400 files added (on-disk size: 5611.7 KB)
+0006.110 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1500 files added (on-disk size: 5611.7 KB)
+0006.112 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.1 MB, 8257 files batched, 501 (1503) added so far); re-opening (prior size: 5611.7 KB)
+0008.379 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1600 files added (on-disk size: 8337.5 KB)
+0008.958 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1700 files added (on-disk size: 8337.5 KB)
+0008.967 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1800 files added (on-disk size: 8337.5 KB)
+0008.975 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 1900 files added (on-disk size: 8337.5 KB)
+0008.983 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2000 files added (on-disk size: 8337.5 KB)
+0008.985 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.7 MB, 8257 files batched, 501 (2004) added so far); re-opening (prior size: 8337.5 KB)
+0012.410 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2100 files added (on-disk size: 9624 KB)
+0012.421 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2200 files added (on-disk size: 9624 KB)
+0012.431 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2300 files added (on-disk size: 9624 KB)
+0012.450 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2400 files added (on-disk size: 9624 KB)
+0012.468 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2500 files added (on-disk size: 9624 KB)
+0012.472 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.1 MB, 8257 files batched, 501 (2505) added so far); re-opening (prior size: 9624 KB)
+0015.533 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2600 files added (on-disk size: 10988.8 KB)
+0015.542 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2700 files added (on-disk size: 10988.8 KB)
+0015.552 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2800 files added (on-disk size: 10988.8 KB)
+0015.562 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 2900 files added (on-disk size: 10988.8 KB)
+0015.573 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3000 files added (on-disk size: 10988.8 KB)
+0015.575 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.3 MB, 8257 files batched, 501 (3006) added so far); re-opening (prior size: 10988.8 KB)
+0018.337 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3100 files added (on-disk size: 13195.5 KB)
+0018.347 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3200 files added (on-disk size: 13195.5 KB)
+0018.357 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3300 files added (on-disk size: 13195.5 KB)
+0018.367 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3400 files added (on-disk size: 13195.5 KB)
+0018.378 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3500 files added (on-disk size: 13195.5 KB)
+0018.381 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 8257 files batched, 501 (3507) added so far); re-opening (prior size: 13195.5 KB)
+0020.649 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3600 files added (on-disk size: 13746 KB)
+0020.663 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3700 files added (on-disk size: 13746 KB)
+0020.673 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3800 files added (on-disk size: 13746 KB)
+0020.683 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 3900 files added (on-disk size: 13746 KB)
+0020.693 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4000 files added (on-disk size: 13746 KB)
+0020.695 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.7 MB, 8257 files batched, 501 (4008) added so far); re-opening (prior size: 13746 KB)
+0024.980 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4100 files added (on-disk size: 18841 KB)
+0025.712 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4200 files added (on-disk size: 18841 KB)
+0025.723 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4300 files added (on-disk size: 18841 KB)
+0025.734 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4400 files added (on-disk size: 18841 KB)
+0025.745 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4500 files added (on-disk size: 18841 KB)
+0025.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 8257 files batched, 501 (4509) added so far); re-opening (prior size: 18841 KB)
+0029.041 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4600 files added (on-disk size: 20908 KB)
+0029.099 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4700 files added (on-disk size: 20908 KB)
+0029.118 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4800 files added (on-disk size: 20908 KB)
+0029.132 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 4900 files added (on-disk size: 20908 KB)
+0029.145 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5000 files added (on-disk size: 20908 KB)
+0029.148 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 8257 files batched, 501 (5010) added so far); re-opening (prior size: 20908 KB)
+0032.264 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5100 files added (on-disk size: 21520.3 KB)
+0032.277 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5200 files added (on-disk size: 21520.3 KB)
+0032.290 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5300 files added (on-disk size: 21520.3 KB)
+0032.303 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5400 files added (on-disk size: 21520.3 KB)
+0032.316 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5500 files added (on-disk size: 21520.3 KB)
+0032.320 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 8257 files batched, 501 (5511) added so far); re-opening (prior size: 21520.3 KB)
+0035.798 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5600 files added (on-disk size: 22800.7 KB)
+0035.824 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5700 files added (on-disk size: 22800.7 KB)
+0035.844 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5800 files added (on-disk size: 22800.7 KB)
+0035.867 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 5900 files added (on-disk size: 22800.7 KB)
+0035.882 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6000 files added (on-disk size: 22800.7 KB)
+0035.885 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 8257 files batched, 501 (6012) added so far); re-opening (prior size: 22800.7 KB)
+0041.797 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6100 files added (on-disk size: 26949.4 KB)
+0042.594 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6200 files added (on-disk size: 26949.4 KB)
+0042.619 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6300 files added (on-disk size: 26949.4 KB)
+0042.644 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6400 files added (on-disk size: 26949.4 KB)
+0042.672 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6500 files added (on-disk size: 26949.4 KB)
+0042.679 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 8257 files batched, 501 (6513) added so far); re-opening (prior size: 26949.4 KB)
+0047.768 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6600 files added (on-disk size: 28542.9 KB)
+0048.253 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6700 files added (on-disk size: 28542.9 KB)
+0048.270 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6800 files added (on-disk size: 28542.9 KB)
+0048.285 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 6900 files added (on-disk size: 28542.9 KB)
+0048.300 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7000 files added (on-disk size: 28542.9 KB)
+0048.304 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 8257 files batched, 501 (7014) added so far); re-opening (prior size: 28542.9 KB)
+0052.853 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7100 files added (on-disk size: 30114.3 KB)
+0053.534 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7200 files added (on-disk size: 30114.3 KB)
+0053.549 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7300 files added (on-disk size: 30114.3 KB)
+0053.563 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7400 files added (on-disk size: 30114.3 KB)
+0053.579 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7500 files added (on-disk size: 30114.3 KB)
+0053.583 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.2 MB, 8257 files batched, 501 (7515) added so far); re-opening (prior size: 30114.3 KB)
+0058.155 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7600 files added (on-disk size: 31360 KB)
+0058.175 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7700 files added (on-disk size: 31360 KB)
+0058.192 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7800 files added (on-disk size: 31360 KB)
+0058.218 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 7900 files added (on-disk size: 31360 KB)
+0058.235 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 8000 files added (on-disk size: 31360 KB)
+0058.239 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16.7 MB, 8257 files batched, 501 (8016) added so far); re-opening (prior size: 31360 KB)
+0065.033 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 8100 files added (on-disk size: 40032.1 KB)
+0065.939 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip.tmp: 8200 files added (on-disk size: 40032.1 KB)
+0070.925 (0) Created plugins zip (0) - 40699.9 KB in 70.8 s (575 KB/s) (sha1: 83519a201f43c3788e4599b2be8b7d9be2752ea5, sha256: bfab5834ed9057b6a0594eb9d5b47ed2f83146a75134068489a74dde4d22d353)
+0070.929 (0) Beginning creation of dump of themes (split every: 400 MB)
+0071.121 (0) Total entities for the zip file: 110 directories, 846 files (0 skipped as non-modified), 7.5 MB
+0071.126 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0071.129 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0071.133 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0071.137 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0071.141 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0071.143 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 MB, 846 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0073.148 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 600 files added (on-disk size: 2013 KB)
+0073.160 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 700 files added (on-disk size: 2013 KB)
+0073.165 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip.tmp: 800 files added (on-disk size: 2013 KB)
+0074.590 (0) Created themes zip (0) - 3708.5 KB in 3.7 s (1013.5 KB/s) (sha1: b31727db749b2ba1fc2c0ca376c1d425dce589e3, sha256: 416ba3c0e10f73b7ace7cad2b30a71056cf6d56aae2be7793756bdea1395f70f)
+0074.863 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0074.865 (0) Looking for candidates to back up in: /home/resparkl/public_html/wp-content/uploads
+0074.867 (0) finding files: backwpup-c83bdc-backups: skipping: excluded by options (glob)
+0074.868 (0) finding files: backwpup-c83bdc-backups: skipping: excluded by options (glob)
+0074.868 (0) finding files: woocommerce_uploads: adding to list (1)
+0074.870 (0) finding files: 2015: adding to list (2)
+0074.871 (0) finding files: backwpup-c83bdc-logs: skipping: excluded by options (glob)
+0074.873 (0) finding files: .DS_Store: adding to list (3)
+0074.874 (0) finding files: backwpup-c83bdc-temp: skipping: excluded by options (glob)
+0074.876 (0) finding files: GeoIP.dat: adding to list (4)
+0074.878 (0) finding files: wc-logs: adding to list (5)
+0074.879 (0) finding files: 2014: adding to list (6)
+0074.881 (0) finding files: 2013: adding to list (7)
+0074.882 (0) finding files: GeoLite2-City.mmdb: adding to list (8)
+0074.884 (0) finding files: wpcf7_captcha: adding to list (9)
+0074.885 (0) finding files: 2017: adding to list (10)
+0074.887 (0) finding files: wpo_wcpdf: adding to list (11)
+0074.888 (0) finding files: 2016: adding to list (12)
+0074.890 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0075.050 (0) Total entities for the zip file: 48 directories, 1128 files (0 skipped as non-modified), 180.9 MB
+0075.054 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0075.058 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0075.061 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0075.065 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0075.069 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0075.239 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (20.7 MB, 1128 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0080.641 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 600 files added (on-disk size: 20158.8 KB)
+0080.940 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (34.1 MB, 1128 files batched, 174 (675) added so far); re-opening (prior size: 20158.8 KB)
+0086.997 (0) A useful amount of data was added after this amount of zip processing: 6.8 s (normalised: 5 s, rate: 5112.1 KB/s)
+0090.196 (0) Performance is good - will increase the amount of data we attempt to batch (time=6.8284521102905, normalised_time=5.0076946221152, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=31408944)
+0090.201 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 700 files added (on-disk size: 36281.2 KB)
+0090.203 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 30 MB added on this batch (55.2 MB, 1128 files batched, 66 (741) added so far); re-opening (prior size: 36281.2 KB)
+0110.453 (0) A useful amount of data was added after this amount of zip processing: 20.3 s (normalised: 11 s, rate: 2786.1 KB/s)
+0110.940 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 800 files added (on-disk size: 63768.5 KB)
+0110.945 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 30 MB added on this batch (53.6 MB, 1128 files batched, 125 (866) added so far); re-opening (prior size: 63768.5 KB)
+0129.244 (0) A useful amount of data was added after this amount of zip processing: 19.1 s (normalised: 10.7 s, rate: 2875.5 KB/s)
+0130.140 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 900 files added (on-disk size: 114180.3 KB)
+0130.145 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 1000 files added (on-disk size: 114180.3 KB)
+0130.151 (0) Zip: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip.tmp: 1100 files added (on-disk size: 114180.3 KB)
+0147.551 (0) Created uploads zip (0) - 130409.8 KB in 72.7 s (1794.8 KB/s) (sha1: b9bd030b59b40d8e2d87cd660d1b3f956e469594, sha256: 02bafc1beaa5ec08c72ced1b56acb933404b43c3709e379d6603eb564bc67e84)
+0147.555 (0) Beginning backup of other directories found in the content directory (index: 0)
+0147.556 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0147.558 (0) Looking for candidates to back up in: /home/resparkl/public_html/wp-content
+0147.580 (0) finding files: index.php: adding to list (1)
+0147.582 (0) finding files: updraft: skipping: this is the updraft directory
+0147.583 (0) finding files: .DS_Store: adding to list (2)
+0147.585 (0) finding files: uploads: skipping: this is the uploads directory
+0147.586 (0) finding files: backup-09d83: skipping: excluded by options (glob)
+0147.588 (0) finding files: upgrade: skipping: excluded by options
+0147.589 (0) finding files: plugins: skipping: this is the plugins directory
+0147.591 (0) finding files: themes: skipping: this is the themes directory
+0147.592 (0) finding files: languages: adding to list (3)
+0147.597 (0) Total entities for the zip file: 4 directories, 5 files (0 skipped as non-modified), 0.1 MB
+0147.628 (0) Created others zip (0) - 12.2 KB in 0 s (359.7 KB/s) (sha1: 653b5742b1fa7e609890e4a90e610c01c801a21a, sha256: e6a3d821a4f8c45c9929f85d05bb735d8aab5f23ac10acdce6fdc8d161bf07bc)
+0147.636 (0) Saving backup status to database (elements: 8)
+0147.640 (0) Beginning creation of database dump (WordPress DB)
+0147.906 (0) Table wp_options: Total expected rows (approximate): 70332
+0151.132 (0) Table wp_options: Total rows added: 75374 in 3.22 seconds
+0151.178 (0) Table wp_options: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_options.table.gz - 3077.2 KB)
+0151.189 (0) Table wp_users: Total expected rows (approximate): 1034
+0151.254 (0) Table wp_users: Total rows added: 2000 in 0.06 seconds
+0151.257 (0) Table wp_users: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_users.table.gz - 122.8 KB)
+0151.264 (0) Table wp_usermeta: Total expected rows (approximate): 35855
+0152.995 (0) Table wp_usermeta: Total rows added: 68065 in 1.73 seconds
+0153.000 (0) Table wp_usermeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_usermeta.table.gz - 875 KB)
+0153.045 (0) Table wp_commentmeta: Total expected rows (approximate): 5367
+0153.124 (0) Table wp_commentmeta: Total rows added: 6031 in 0.08 seconds
+0153.126 (0) Table wp_commentmeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_commentmeta.table.gz - 50.4 KB)
+0153.132 (0) Table wp_comments: Total expected rows (approximate): 6237
+0153.707 (0) Table wp_comments: Total rows added: 14074 in 0.57 seconds
+0153.709 (0) Table wp_comments: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_comments.table.gz - 251.8 KB)
+0153.716 (0) Table wp_links: Total expected rows (approximate): 0
+0153.719 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0153.721 (0) Table wp_links: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_links.table.gz - 0.4 KB)
+0153.728 (0) Table wp_postmeta: Total expected rows (approximate): 93231
+0160.327 (0) Table wp_postmeta: Total rows added: 162338 in 6.60 seconds
+0160.330 (0) Table wp_postmeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_postmeta.table.gz - 1429 KB)
+0160.342 (0) Table wp_posts: Total expected rows (approximate): 2148
+0160.597 (0) Table wp_posts: Total rows added: 4208 in 0.25 seconds
+0160.599 (0) Table wp_posts: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_posts.table.gz - 335.8 KB)
+0160.611 (0) Table wp_term_relationships: Total expected rows (approximate): 472
+0160.616 (0) Table wp_term_relationships: Total rows added: 480 in 0.00 seconds
+0160.618 (0) Table wp_term_relationships: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_term_relationships.table.gz - 1.6 KB)
+0160.630 (0) Table wp_term_taxonomy: Total expected rows (approximate): 83
+0160.633 (0) Table wp_term_taxonomy: Total rows added: 83 in 0.00 seconds
+0160.635 (0) Table wp_term_taxonomy: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0160.641 (0) Table wp_termmeta: Total expected rows (approximate): 97
+0160.644 (0) Table wp_termmeta: Total rows added: 97 in 0.00 seconds
+0160.646 (0) Table wp_termmeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_termmeta.table.gz - 1 KB)
+0160.659 (0) Table wp_terms: Total expected rows (approximate): 83
+0160.662 (0) Table wp_terms: Total rows added: 83 in 0.00 seconds
+0160.664 (0) Table wp_terms: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_terms.table.gz - 1.5 KB)
+0160.669 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 262247
+0160.673 (0) [Warning] Table wp_woocommerce_order_itemmeta has very many rows (262247) - we hope your web hosting company gives you enough resources to dump out that table in the backup If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0174.369 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 254018 in 13.69 seconds
+0174.373 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_order_itemmeta.table.gz - 1743.9 KB)
+0174.435 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0174.438 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0174.440 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0174.490 (0) Table wp_aelia_dismissed_messages: Total expected rows (approximate): 0
+0174.498 (0) Table wp_aelia_dismissed_messages: Total rows added: 0 in 0.01 seconds
+0174.500 (0) Table wp_aelia_dismissed_messages: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_aelia_dismissed_messages.table.gz - 0.3 KB)
+0174.549 (0) Table wp_affiliate_wp_affiliatemeta: Total expected rows (approximate): 0
+0174.552 (0) Table wp_affiliate_wp_affiliatemeta: Total rows added: 0 in 0.00 seconds
+0174.554 (0) Table wp_affiliate_wp_affiliatemeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_affiliatemeta.table.gz - 0.3 KB)
+0174.562 (0) Table wp_affiliate_wp_affiliates: Total expected rows (approximate): 9
+0174.576 (0) Table wp_affiliate_wp_affiliates: Total rows added: 9 in 0.01 seconds
+0174.578 (0) Table wp_affiliate_wp_affiliates: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_affiliates.table.gz - 0.7 KB)
+0174.607 (0) Table wp_affiliate_wp_creatives: Total expected rows (approximate): 0
+0174.610 (0) Table wp_affiliate_wp_creatives: Total rows added: 0 in 0.00 seconds
+0174.611 (0) Table wp_affiliate_wp_creatives: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_creatives.table.gz - 0.3 KB)
+0174.636 (0) Table wp_affiliate_wp_payouts: Total expected rows (approximate): 0
+0174.638 (0) Table wp_affiliate_wp_payouts: Total rows added: 0 in 0.00 seconds
+0174.640 (0) Table wp_affiliate_wp_payouts: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_payouts.table.gz - 0.3 KB)
+0174.646 (0) Table wp_affiliate_wp_referrals: Total expected rows (approximate): 16
+0174.651 (0) Table wp_affiliate_wp_referrals: Total rows added: 16 in 0.00 seconds
+0174.653 (0) Table wp_affiliate_wp_referrals: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_referrals.table.gz - 2.3 KB)
+0174.660 (0) Table wp_affiliate_wp_rest_consumers: Total expected rows (approximate): 0
+0174.662 (0) Table wp_affiliate_wp_rest_consumers: Total rows added: 0 in 0.00 seconds
+0174.664 (0) Table wp_affiliate_wp_rest_consumers: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_rest_consumers.table.gz - 0.3 KB)
+0174.688 (0) Table wp_affiliate_wp_visits: Total expected rows (approximate): 261
+0174.698 (0) Table wp_affiliate_wp_visits: Total rows added: 261 in 0.01 seconds
+0174.700 (0) Table wp_affiliate_wp_visits: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_visits.table.gz - 11.7 KB)
+0174.715 (0) Table wp_et_social_stats: Total expected rows (approximate): 126
+0174.721 (0) Table wp_et_social_stats: Total rows added: 214 in 0.00 seconds
+0174.723 (0) Table wp_et_social_stats: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_et_social_stats.table.gz - 4.3 KB)
+0174.729 (0) Table wp_mc4wp_log: Total expected rows (approximate): 3
+0174.731 (0) Table wp_mc4wp_log: Total rows added: 3 in 0.00 seconds
+0174.733 (0) Table wp_mc4wp_log: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_mc4wp_log.table.gz - 0.7 KB)
+0174.739 (0) Table wp_store_wpress: Total expected rows (approximate): 122
+0174.748 (0) Table wp_store_wpress: Total rows added: 122 in 0.01 seconds
+0174.750 (0) Table wp_store_wpress: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_store_wpress.table.gz - 8.6 KB)
+0174.757 (0) Table wp_store_wpress_category: Total expected rows (approximate): 1
+0174.760 (0) Table wp_store_wpress_category: Total rows added: 1 in 0.00 seconds
+0174.762 (0) Table wp_store_wpress_category: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_store_wpress_category.table.gz - 0.3 KB)
+0174.768 (0) Table wp_usin_user_data: Total expected rows (approximate): 1087
+0174.808 (0) Table wp_usin_user_data: Total rows added: 1087 in 0.04 seconds
+0174.810 (0) Table wp_usin_user_data: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_usin_user_data.table.gz - 29.6 KB)
+0174.817 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 1
+0174.819 (0) Table wp_woocommerce_api_keys: Total rows added: 1 in 0.00 seconds
+0174.821 (0) Table wp_woocommerce_api_keys: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_api_keys.table.gz - 0.6 KB)
+0174.827 (0) Table wp_woocommerce_arr_log: Total expected rows (approximate): 942
+0174.858 (0) Table wp_woocommerce_arr_log: Total rows added: 942 in 0.03 seconds
+0174.861 (0) Table wp_woocommerce_arr_log: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_arr_log.table.gz - 16.3 KB)
+0174.874 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0174.876 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0174.878 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.3 KB)
+0174.902 (0) Table wp_woocommerce_bundled_itemmeta: Total expected rows (approximate): 3117
+0174.934 (0) Table wp_woocommerce_bundled_itemmeta: Total rows added: 3117 in 0.03 seconds
+0174.936 (0) Table wp_woocommerce_bundled_itemmeta: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_bundled_itemmeta.table.gz - 18 KB)
+0174.955 (0) Table wp_woocommerce_bundled_items: Total expected rows (approximate): 160
+0175.373 (0) Table wp_woocommerce_bundled_items: Total rows added: 160 in 0.08 seconds
+0175.376 (0) Table wp_woocommerce_bundled_items: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_bundled_items.table.gz - 1.3 KB)
+0175.432 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0175.435 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0175.437 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.4 KB)
+0175.459 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0175.463 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0175.466 (0) Table wp_woocommerce_log: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0175.476 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 20876
+0175.841 (0) Table wp_woocommerce_order_items: Total rows added: 21470 in 0.36 seconds
+0175.844 (0) Table wp_woocommerce_order_items: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_order_items.table.gz - 114.5 KB)
+0175.995 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0175.998 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0176.001 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0176.009 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 68
+0176.119 (0) Table wp_woocommerce_sessions: Total rows added: 68 in 0.11 seconds
+0176.122 (0) Table wp_woocommerce_sessions: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_sessions.table.gz - 9.9 KB)
+0176.132 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0176.136 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0176.139 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0176.149 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0176.154 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0176.158 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0176.167 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0176.170 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0176.173 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0176.204 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0176.208 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0176.211 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.3 KB)
+0176.281 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0176.285 (0) Table wp_woocommerce_tax_rates: Total rows added: 1 in 0.00 seconds
+0176.289 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0176.305 (0) Table wp_wpmm_subscribers: Total expected rows (approximate): 0
+0176.309 (0) Table wp_wpmm_subscribers: Total rows added: 0 in 0.00 seconds
+0176.311 (0) Table wp_wpmm_subscribers: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_wpmm_subscribers.table.gz - 0.3 KB)
+0176.319 (0) Table wp_affiliate_wp_campaigns: Total rows added: 0 in 0.00 seconds
+0176.321 (0) Table wp_affiliate_wp_campaigns: finishing file (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_campaigns.table.gz - 0.4 KB)
+0176.326 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_options.table.gz (1/44): adding to final database dump
+0177.177 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_users.table.gz (2/44): adding to final database dump
+0177.201 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_usermeta.table.gz (3/44): adding to final database dump
+0177.559 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_commentmeta.table.gz (4/44): adding to final database dump
+0177.590 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_comments.table.gz (5/44): adding to final database dump
+0177.693 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_links.table.gz (6/44): adding to final database dump
+0177.696 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_postmeta.table.gz (7/44): adding to final database dump
+0178.521 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_posts.table.gz (8/44): adding to final database dump
+0178.590 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_term_relationships.table.gz (9/44): adding to final database dump
+0178.594 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_term_taxonomy.table.gz (10/44): adding to final database dump
+0178.596 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_termmeta.table.gz (11/44): adding to final database dump
+0178.599 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_terms.table.gz (12/44): adding to final database dump
+0178.601 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_order_itemmeta.table.gz (13/44): adding to final database dump
+0180.624 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/44): adding to final database dump
+0180.628 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_aelia_dismissed_messages.table.gz (15/44): adding to final database dump
+0180.630 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_affiliatemeta.table.gz (16/44): adding to final database dump
+0180.632 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_affiliates.table.gz (17/44): adding to final database dump
+0180.634 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_creatives.table.gz (18/44): adding to final database dump
+0180.636 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_payouts.table.gz (19/44): adding to final database dump
+0180.638 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_referrals.table.gz (20/44): adding to final database dump
+0180.640 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_rest_consumers.table.gz (21/44): adding to final database dump
+0180.642 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_visits.table.gz (22/44): adding to final database dump
+0180.645 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_et_social_stats.table.gz (23/44): adding to final database dump
+0180.648 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_mc4wp_log.table.gz (24/44): adding to final database dump
+0180.650 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_store_wpress.table.gz (25/44): adding to final database dump
+0180.654 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_store_wpress_category.table.gz (26/44): adding to final database dump
+0180.655 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_usin_user_data.table.gz (27/44): adding to final database dump
+0180.666 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_api_keys.table.gz (28/44): adding to final database dump
+0180.669 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_arr_log.table.gz (29/44): adding to final database dump
+0180.676 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_attribute_taxonomies.table.gz (30/44): adding to final database dump
+0180.679 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_bundled_itemmeta.table.gz (31/44): adding to final database dump
+0180.695 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_bundled_items.table.gz (32/44): adding to final database dump
+0180.698 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (33/44): adding to final database dump
+0180.701 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_log.table.gz (34/44): adding to final database dump
+0180.704 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_order_items.table.gz (35/44): adding to final database dump
+0180.795 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_payment_tokens.table.gz (36/44): adding to final database dump
+0180.798 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_sessions.table.gz (37/44): adding to final database dump
+0180.802 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_shipping_zone_locations.table.gz (38/44): adding to final database dump
+0180.804 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_shipping_zone_methods.table.gz (39/44): adding to final database dump
+0180.806 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_shipping_zones.table.gz (40/44): adding to final database dump
+0180.808 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_tax_rate_locations.table.gz (41/44): adding to final database dump
+0180.809 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_woocommerce_tax_rates.table.gz (42/44): adding to final database dump
+0180.811 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_wpmm_subscribers.table.gz (43/44): adding to final database dump
+0180.813 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db-table-wp_affiliate_wp_campaigns.table.gz (44/44): adding to final database dump
+0180.815 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz: finished writing out complete database file (8096 KB)
+0180.896 (0) Total database tables backed up: 44 (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz, size: 8305275, sha256)
+0180.906 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0180.909 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0180.913 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0180.915 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0180.917 (0) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0180.919 (0) Saving backup history. Total backup size: 178.7 MB
+0180.923 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0180.928 (0) Cloud backup selection (1/1): dropbox (last)
+0180.930 (0) Beginning dispatch of backup to remote (dropbox)
+0180.931 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0180.935 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0181.830 (0) Dropbox quota usage: used=100698.6 MB, total=1050880 MB, available=950181.4 MB
+0181.833 (0) Dropbox: Attempt to upload: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip to: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip
+0185.144 (0) Dropbox chunked upload: 2.5 % uploaded (AAAAAAAAsEQVOCjqB5jMOw, 1048576, 2560 KB)
+0439.226 (1) Opened log file at time: Mon, 12 Jun 2017 08:27:45 +0000 on http://resparkle.com.au
+0439.228 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.6.6 PHP: 5.5.38 (cgi-fcgi, Linux web109.webhostsg.com 2.6.32-673.26.1.lve1.4.18.el6.x86_64 #1 SMP Fri Oct 21 11:58:14 EDT 2016 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.4M | 19.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0439.230 (1) Free space on disk containing Updraft's temporary directory: 213240.9 MB
+0439.237 (1) Backup run: resumption=1, nonce=4ea862df94a2, begun at=1497255625 (440s ago), job type=backup, previous check-in=185.1s
+0439.240 (1) Scheduling a resumption (2) after 300 seconds (1497256365) in case this run gets aborted
+0439.253 (1) Checking if we have a zip executable available
+0439.256 (1) Creation of backups of directories: already finished
+0439.258 (1) Saving backup status to database (elements: 8)
+0439.263 (1) Database dump (WordPress DB): Creation was completed already
+0439.270 (1) backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0439.272 (1) backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0439.273 (1) backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0439.275 (1) backup_2017-06-12-0820_Resparkle_4ea862df94a2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0439.278 (1) backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0439.280 (1) Saving backup history. Total backup size: 178.7 MB
+0439.284 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0439.286 (1) Cloud backup selection (1/1): dropbox (last)
+0439.290 (1) Beginning dispatch of backup to remote (dropbox)
+0439.292 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0439.297 (1) Dropbox: access gained; setting chunk size to: 2560 KB
+0439.902 (1) Dropbox quota usage: used=100698.6 MB, total=1050880 MB, available=950181.4 MB
+0439.906 (1) This is a resumption: 1048576 bytes had already been uploaded
+0439.907 (1) Dropbox: Attempt to upload: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip to: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip
+0440.562 (1) Dropbox chunked upload exception (Exception): Submitted input out of alignment: got [1048576] expected [3670016] (line: 255, file: /home/resparkl/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/API.php)
+0440.565 (1) Dropbox not yet aligned: tried=1048576, wanted=3670016; will attempt recovery
+0445.267 (1) Dropbox chunked upload: 15.1 % uploaded (AAAAAAAAsEQVOCjqB5jMOw, 6291456, 4096 KB)
+0449.585 (1) Dropbox chunked upload: 25.2 % uploaded (AAAAAAAAsEQVOCjqB5jMOw, 10485760, 8192 KB)
+0454.582 (1) Dropbox chunked upload: 45.3 % uploaded (AAAAAAAAsEQVOCjqB5jMOw, 18874368, 10240 KB)
+0459.738 (1) Dropbox chunked upload: 70.4 % uploaded (AAAAAAAAsEQVOCjqB5jMOw, 29360128, 10240 KB)
+0464.284 (1) Dropbox chunked upload: 95.6 % uploaded (AAAAAAAAsEQVOCjqB5jMOw, 39845888, 10240 KB)
+0465.730 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAsEQVOCjqB5jMOw, 41676669, 10240 KB)
+0467.680 (1) Recording as successfully uploaded: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip (611d0a964b69e92c554312ed1f4fe472)
+0467.693 (1) Deleting local file: backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip: OK
+0467.695 (1) Dropbox: File upload success (backup_2017-06-12-0820_Resparkle_4ea862df94a2-plugins.zip): 40699 KB in 27s (1464 KB/s)
+0468.291 (1) Dropbox quota usage: used=100738.3 MB, total=1050880 MB, available=950141.7 MB
+0468.293 (1) Dropbox: Attempt to upload: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip to: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip
+0470.434 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAsEX_3wVygEktXA, 3797477, 10240 KB)
+0472.542 (1) Recording as successfully uploaded: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip (366edefdd5f00039fa8989cecb4c180b)
+0472.548 (1) Deleting local file: backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip: OK
+0472.549 (1) Dropbox: File upload success (backup_2017-06-12-0820_Resparkle_4ea862df94a2-themes.zip): 3708 KB in 4s (871 KB/s)
+0473.016 (1) Dropbox quota usage: used=100742 MB, total=1050880 MB, available=950138 MB
+0473.018 (1) Dropbox: Attempt to upload: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip to: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip
+0476.700 (1) Dropbox chunked upload: 7.9 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 10485760, 10240 KB)
+0483.356 (1) Dropbox chunked upload: 15.7 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 20971520, 10240 KB)
+0489.064 (1) Dropbox chunked upload: 23.6 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 31457280, 10240 KB)
+0494.304 (1) Dropbox chunked upload: 31.4 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 41943040, 10240 KB)
+0500.829 (1) Dropbox chunked upload: 39.3 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 52428800, 10240 KB)
+0506.014 (1) Dropbox chunked upload: 47.1 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 62914560, 10240 KB)
+0512.357 (1) Dropbox chunked upload: 55 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 73400320, 10240 KB)
+0519.771 (1) Dropbox chunked upload: 62.8 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 83886080, 10240 KB)
+0525.772 (1) Dropbox chunked upload: 70.7 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 94371840, 10240 KB)
+0531.425 (1) Dropbox chunked upload: 78.5 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 104857600, 10240 KB)
+0535.660 (1) Dropbox chunked upload: 86.4 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 115343360, 10240 KB)
+0543.923 (1) Dropbox chunked upload: 94.2 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 125829120, 10240 KB)
+0546.566 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAsEYcfebVXnsnDw, 133539648, 10240 KB)
+0549.851 (1) Recording as successfully uploaded: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip (f221d1c5ba427f32104f26ba26318420)
+0549.874 (1) Deleting local file: backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip: OK
+0549.876 (1) Dropbox: File upload success (backup_2017-06-12-0820_Resparkle_4ea862df94a2-uploads.zip): 130409 KB in 76s (1696 KB/s)
+0550.381 (1) Dropbox quota usage: used=100869.3 MB, total=1050880 MB, available=950010.7 MB
+0550.383 (1) Dropbox: Attempt to upload: backup_2017-06-12-0820_Resparkle_4ea862df94a2-others.zip to: backup_2017-06-12-0820_Resparkle_4ea862df94a2-others.zip
+0550.899 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAsEeDiQNA9N8P8A, 12541, 10240 KB)
+0552.139 (1) Recording as successfully uploaded: backup_2017-06-12-0820_Resparkle_4ea862df94a2-others.zip (657bacaaa799cd3e38ef857b5d0985cc)
+0552.148 (1) Deleting local file: backup_2017-06-12-0820_Resparkle_4ea862df94a2-others.zip: OK
+0552.150 (1) Dropbox: File upload success (backup_2017-06-12-0820_Resparkle_4ea862df94a2-others.zip): 12 KB in 1s (6 KB/s)
+0552.727 (1) Dropbox quota usage: used=100869.3 MB, total=1050880 MB, available=950010.7 MB
+0552.729 (1) Dropbox: Attempt to upload: backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz to: backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz
+0556.442 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAsEipMMfHlM8IlA, 8305275, 10240 KB)
+0559.063 (1) Recording as successfully uploaded: backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz (3cdd74c0b1f0687fcfda1efb70aebd5b)
+0559.071 (1) Deleting local file: backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz: OK
+0559.073 (1) Dropbox: File upload success (backup_2017-06-12-0820_Resparkle_4ea862df94a2-db.gz): 8110 KB in 6s (1278 KB/s)
+0559.077 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0559.079 (1) Number of backup sets in history: 2; groups (db): 1
+0559.081 (1) Examining (for databases) backup set with group_id=0, nonce=4ea862df94a2, datestamp=1497255625 (Jun 12 2017 08:20:25)
+0559.083 (1) This backup set is the backup set just made, so will not be deleted.
+0559.085 (1) Examining (for databases) backup set with group_id=0, nonce=3125c257995e, datestamp=1497169653 (Jun 11 2017 08:27:33)
+0559.086 (1) 1497169653: db: this set includes a database (backup_2017-06-11-0827_Resparkle_3125c257995e-db.gz); db count is now 1
+0559.088 (1) 1497169653: db: over retain limit (1); will delete this database
+0559.089 (1) Delete file: backup_2017-06-11-0827_Resparkle_3125c257995e-db.gz, service=dropbox
+0559.091 (1) Dropbox: request deletion: backup_2017-06-11-0827_Resparkle_3125c257995e-db.gz
+0560.777 (1) Dropbox: delete succeeded
+0560.781 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0560.783 (1) Number of backup sets in history: 2; groups (files): 1
+0560.785 (1) Examining (for files) backup set with nonce=4ea862df94a2, datestamp=1497255625 (Jun 12 2017 08:20:25)
+0560.786 (1) This backup set is the backup set just made, so will not be deleted.
+0560.788 (1) This backup set is the backup set just made, so will not be deleted.
+0560.788 (1) This backup set is the backup set just made, so will not be deleted.
+0560.788 (1) This backup set is the backup set just made, so will not be deleted.
+0560.788 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0560.790 (1) Examining (for files) backup set with nonce=3125c257995e, datestamp=1497169653 (Jun 11 2017 08:27:33)
+0560.792 (1) plugins: over retain limit (1); will delete this file entity
+0560.793 (1) themes: over retain limit (1); will delete this file entity
+0560.795 (1) uploads: over retain limit (1); will delete this file entity
+0560.796 (1) others: over retain limit (1); will delete this file entity
+0560.798 (1) Delete file: backup_2017-06-11-0827_Resparkle_3125c257995e-plugins.zip, service=dropbox
+0560.800 (1) Delete file: backup_2017-06-11-0827_Resparkle_3125c257995e-themes.zip, service=dropbox
+0560.801 (1) Delete file: backup_2017-06-11-0827_Resparkle_3125c257995e-uploads.zip, service=dropbox
+0560.803 (1) Delete file: backup_2017-06-11-0827_Resparkle_3125c257995e-others.zip, service=dropbox
+0560.805 (1) Dropbox: request deletion: backup_2017-06-11-0827_Resparkle_3125c257995e-plugins.zip
+0561.681 (1) Dropbox: delete succeeded
+0561.683 (1) Dropbox: request deletion: backup_2017-06-11-0827_Resparkle_3125c257995e-themes.zip
+0562.419 (1) Dropbox: delete succeeded
+0562.422 (1) Dropbox: request deletion: backup_2017-06-11-0827_Resparkle_3125c257995e-uploads.zip
+0563.222 (1) Dropbox: delete succeeded
+0563.224 (1) Dropbox: request deletion: backup_2017-06-11-0827_Resparkle_3125c257995e-others.zip
+0564.294 (1) Dropbox: delete succeeded
+0564.299 (1) This backup set is now empty; will remove from history
+0564.301 (1) Deleting log file (log.3125c257995e.txt)
+0564.302 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0564.310 (1) Resume backup (4ea862df94a2, 1): finish run
+0564.315 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0564.325 (1) No email will/can be sent - the user has not configured an email address.
+0564.328 (1) The backup apparently succeeded and is now complete

@@ -1,0 +1,11 @@
+#rc_acn_editor {
+	max-width: 800px !important;
+}
+.rc_acn_options_form li {
+	padding: 10px;
+}
+
+.rc_acn_options_form label {
+	width: 220px !important;
+	float :left;
+}
